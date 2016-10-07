@@ -1073,6 +1073,7 @@
 
 	#header {
 		background: #fcfbfa;
+		box-shadow: 0 0 0.2em 0 rgba(0, 0, 0, 0.2);
 		color: #100e11;
 		cursor: default;
 		height: 4em;
