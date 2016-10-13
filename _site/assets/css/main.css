@@ -113,7 +113,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
@@ -285,7 +285,7 @@
 	
 	header h1, h2 {
 		position: relative;
-		padding-bottom: 1em;
+		padding-bottom: 0.25em;
 	}
 	
 		header h1:after, h2:after{
@@ -293,10 +293,19 @@
 			position: absolute;
 			background-color: #100e11;
 			height: 1px;
-			width: 50%;
-			left: 25%;
+			width: 100%;
+			left: 0%;
 			top: 100%;
 		}
+		
+			section.front header h1, h2{
+				padding-bottom: 1em;
+			}
+			
+			section.front header h1:after, h2:after{
+				width: 50%;
+				left: 25%;
+			}
 	
 	footer {
 		margin-top: 2em;
@@ -607,9 +616,21 @@
 			display: block;
 			width: 100%;
 		}
+		
+		.image.plan {
+			display: block;
+			width: 100%;
+			margin-bottom: 1em;
+		}
 
 			.image.fit img {
 				width: 100%;
+			}
+			
+			.image.plan img {
+				max-width: 100%;
+				max-height: 85vh;
+				margin: 0 auto;
 			}
 
 		.image.main {
@@ -710,9 +731,24 @@
 				ul.actions.vertical li > * {
 					margin-bottom: 0;
 				}
+				
+				ul.actions.vertical li > a {
+					text-transform: uppercase;
+					font-weight: bold;
+				}
+				
+					ul.actions.vertical.arrow li a:before {
+						font-family: FontAwesome;
+						content: '\f138';
+						font-size: 2em;
+						padding-right: 0.5em;
+						vertical-align: middle;
+						
+					}
 
 			ul.actions.vertical.small li {
-				padding: 0.5em 0 0 0;
+				padding: 0.1em 0 0 0;
+				text-align: inherit;
 			}
 
 				ul.actions.vertical.small li:first-child {
@@ -769,7 +805,11 @@
 							ul.actions li > *.icon:before {
 								margin-left: -2em;
 							}
-
+					
+					ul.actions.small {
+						margin: 0 0 1em 0;
+					}
+					
 					ul.actions.small li {
 						padding: 0.5em 0 0 0;
 					}
@@ -1256,7 +1296,7 @@
 					}
 
 					#header a.logo img{
-						padding: 0.6em 0;
+						padding: 0.3em 0;
 					}
 					
 			}
@@ -1272,16 +1312,16 @@
 	@media screen and (max-width: 736px) {
 
 		body {
-			padding-top: 55px;
+			padding-top: 42px;
 		}
 		
 			body.index {
-				padding-top: 55px;
+				padding-top: 42px;
 			}
 
 		#header {
-			height: 55px;
-			line-height: 55px;
+			height: 42px;
+			line-height: 42px;
 			padding: 0;
 		}
 
@@ -1523,6 +1563,11 @@
 	.small-banner {
 		min-height: 30vh;
 		position: relative;
+		background-image: url(/images/ban.png);
+	}
+	
+	.banner-product {
+		margin-bottom: 2em;
 	}
 	
 	.banner-generic {

@@ -173,5 +173,15 @@
 				speed: 700
 			  });
 			});
+			
+		$(document).ready(function(){
+			$('.slider').slick({
+				dots: true,
+				arrows: true,
+				infinite: true,
+				speed: 700
+			});
+			  
+		});
 
 })(jQuery);
