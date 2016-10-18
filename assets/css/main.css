@@ -124,6 +124,14 @@
 			color: inherit;
 			text-decoration: none;
 		}
+		
+		@media screen and (max-width: 736px) {
+			
+			h1, h2, h3, h4, h5, h6 {
+				text-align: center;
+			}
+			
+		}
 
 	h1 {
 		font-size: 2em;
@@ -550,6 +558,7 @@
 				padding: 0.2em 0;
 				font-weight: 600;
 				margin: 0;
+				text-align: left;
 			}
 			
 				.box.alt h4.area{
@@ -663,6 +672,7 @@
 
 		ul li {
 			padding-left: 0.5em;
+			margin-bottom: 0.5em;
 		}
 
 		ul.alt {
@@ -853,13 +863,24 @@
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(144, 144, 144, 0.075);
+				/* background-color: rgba(144, 144, 144, 0.075); */
+			}
+			
+			table tbody tr:first-child {
+				border: 0;
 			}
 
 		table td {
 			padding: 0.75em 0.75em;
+			text-align: left;
 		}
-
+		
+			table tr td:nth-child(2) {
+				text-align: right;
+				font-weight: bold;
+			}
+			
+			
 		table th {
 			color: #555;
 			font-size: 0.9em;
@@ -1339,30 +1360,38 @@
 /* Nav */
 
 	#nav {
-		-moz-transform: translateX(35em);
-		-webkit-transform: translateX(35em);
-		-ms-transform: translateX(35em);
-		transform: translateX(35em);
+		-moz-transform: translateX(25em);
+		-webkit-transform: translateX(25em);
+		-ms-transform: translateX(25em);
+		transform: translateX(25em);
 		-moz-transition: -moz-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-transition: -webkit-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #fff;
+		background: #fcfbfa;
 		box-shadow: none;
 		/* color: #ffffff; */
 		height: 100%;
 		max-width: 85%;
 		overflow-y: auto;
-		padding: 3em 2em;
+		padding: 3em 3em;
 		position: fixed;
 		right: 0;
 		top: 0;
 		visibility: hidden;
-		width: 35em;
+		width: 25em;
 		z-index: 10003;
 	}
-
+		
+		#nav h1 {
+			text-align: center;
+		}
+		
+			#nav h1:after {
+				display: none;
+			}
+		
 		#nav  ul {
 			margin: 0 0 1em 0;
 		}
@@ -1374,8 +1403,21 @@
 
 				#nav  ul.links > li {
 					padding: 0;
+					border-bottom: solid 1px #f5f5f5;
+					text-transform: uppercase;
+					font-weight: bold;
+					transition: all 0.6s ease-in-out;
 				}
-
+				
+					#nav  ul.links > li.d2 {
+						font-weight: normal;
+						padding-left: 2em;
+					}
+					
+					#nav  ul.links > li:hover {
+						border-color: #ccc;
+					}
+				
 					#nav  ul.links > li > a:not(.button) {
 						border: 0;
 						border-top: solid 1px rgba(255, 255, 255, 0.15);
@@ -1441,6 +1483,21 @@
 					height: 4em;
 				}
 
+			}
+			
+			@media screen and (max-width: 480px) {
+				
+				#nav {
+					width: 17em;
+				}
+				
+				#nav ul.links > li.d2  {
+					font-size: 75%;
+				}
+				
+				#nav  ul.links > li > a:not(.button) {
+					line-height: 2.5em;
+				}
 			}
 
 		#nav.visible {
