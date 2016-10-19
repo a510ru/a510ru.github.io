@@ -3,5 +3,5 @@ gems:
   - jekyll-redirect-from
 
 collections:
-  projects:
+  proekty:
     output: true
