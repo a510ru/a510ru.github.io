@@ -137,29 +137,31 @@
 
 		});
 	// Header.
-		if ($header.hasClass('alt')) {
-			skel.on('+medium', function() {
-				$header.removeClass('alt');
-				$banner.unscrollex();
-			});
-			skel.on('-medium !medium', function() {
-				$header.addClass('alt');
-				if (($banner.length > 0)
-				&&	($header.hasClass('alt'))
-				&&	(!skel.breakpoint('medium').active)) {
+		$(document).ready(function(){
+			if ($header.hasClass('alt')) {
+				skel.on('+small', function() {
+					$header.removeClass('alt');
+					$banner.unscrollex();
+				});
+				skel.on('-small !small', function() {
+					$header.addClass('alt');
+					if (($banner.length > 0)
+					&&	($header.hasClass('alt'))
+					&&	(!skel.breakpoint('small').active)) {
 
-					$window.on('resize', function() { $window.trigger('scroll'); });
+						$window.on('resize', function() { $window.trigger('scroll'); });
 
-					$banner.scrollex({
-						bottom:		$header.outerHeight() + 1,
-						terminate:	function() { $header.removeClass('alt'); },
-						enter:		function() { $header.addClass('alt reveal'); },
-						leave:		function() { $header.removeClass('alt'); }
-					});
+						$banner.scrollex({
+							bottom:		$header.outerHeight() + 1,
+							terminate:	function() { $header.removeClass('alt'); },
+							enter:		function() { $header.addClass('alt reveal'); },
+							leave:		function() { $header.removeClass('alt'); }
+						});
 
-				}
-			});
-		};
+					}
+				});
+			};
+		});
 				
 		if (skel.vars.IEVersion < 9)
 			$header.removeClass('alt');
