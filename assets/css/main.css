@@ -541,17 +541,13 @@
 		}
 		
 			.box.alt > a img{
-				filter: grayscale(0.5);
-				-webkit-transition: 0.2s -webkit-filter easy-in-out;
-				-moz-transition: 0.3s -moz-filter easy-in-out;
-				-moz-transition: 0.3s filter easy-in-out;
-				-ms-transition: 0.3s -ms-filter easy-in-out;
-				-o-transition: 0.3s -o-filter easy-in-out;
-				transition: 0.3s filter easy-in-out, 0.3s -webkit-filter easy-in-out;
+				transition: all 0.2s ease-in;
+				position: relative;
+				top: 0;
 			}
 				
 				.box.alt > a:hover img{
-					filter: none;
+					/* top: 2em; */
 				}
 		
 			.box.alt h4{
@@ -1853,3 +1849,43 @@
 	.gm-style-iw a {
 		color: #100e11;
 	}
+	
+/* projects overlay */
+
+	.project {
+		overflow: hidden;
+	}
+	
+	.project:hover .project-wrapper {
+		top: 0;
+	}
+
+	.project-wrapper {
+		background-color: #fcfbfa;
+		position: absolute;
+		width: 100%;
+		top: -10em;
+		transition: all 0.3s ease-in-out;
+		text-align: center;
+		padding: 0 1em;
+	}
+	
+		.project-wrapper h5{
+			text-align: center;
+			font-size: 1.1em;
+			font-weight: 400;
+			letter-spacing: 0.05em;
+			position: relative;
+			padding-bottom: 0;
+			margin: 0;
+		}
+		
+			.project-wrapper h5 span {
+				white-space: nowrap;
+				font-weight: bold;
+			}
+		
+		.project-wrapper p{
+			margin-bottom: 1em;
+			font-size: 0.9em;
+		}
