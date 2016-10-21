@@ -24,15 +24,19 @@
 						<div class="row">
 							<div class="8u 12u(small)">
 								<section>
-									<p>Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum.</p>
+									<p>{{page.page-description}}</p>
 								</section>
 							</div>
 							<div class="4u 12u(small)">
 								<section>
 									<ul class="actions vertical small align-left arrow">
-										<li><a href="#">Индивидуальные дома</a></</li>
-										<li><a href="#">Таунхаусы - Дуплексы</a></</li>
-										<li><a href="#">Квадрохаусы</a></</li>
+										{% for category in site.proekty %}
+											{% if category.type == "category" %}
+												{% unless category.url contains page.url %}
+												<li><a href="{{category.url}}">{{category.page-title}}</a></</li>
+												{% endunless %}
+											{% endif %}
+										{% endfor %}
 									</ul>
 								</section>
 							</div>
@@ -59,7 +63,9 @@
 							{% endif %}
 						{% endfor %}
 						</div>
+						<div class="row">
 						{{ content }}
+						</div>
 					</section>
 				</article>
 			</div>
