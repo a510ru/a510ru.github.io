@@ -26,9 +26,9 @@
 						<div class="slider">
 							{% for img in img_array %}
 								{% unless img contains "plan" %}
-								{% unless img contains "small" %}
-								<div class="image fit"><img src="{{img}}"></div>
-								{% endunless %}
+									{% unless img contains "small" %}
+									<div class="image fit"><img src="{{img}}"></div>
+									{% endunless %}
 								{% endunless %}
 							{% endfor %}
 						</div>
