@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+
+<html>
+	{% include head.html %}
+	{% seo %}
+	<body id="top">
+		<div id="page-wrapper">
+		<!-- Header -->
+		{% include header.html %}
+
+		<!-- Nav -->
+		{% include nav.html %}
+
+		<!-- Main -->
+			<div id="not-main">
+				<article class="container">
+					<div class="banner-product">
+						{% assign img_array = "" | split:"," %}
+						{% assign url_list = page.url | split: "/" %}
+						{% assign project-name = url_list | last %}
+						{% for file in site.static_files %}
+							{% if file.path contains project-name %}
+								{% assign img_array = img_array | push: file.path %}
+							{% endif %}
+						{% endfor %}
+						<div class="slider">
+							{% for img in img_array %}
+								{% unless img contains "plan" %}
+									{% unless img contains "small" %}
+									<div class="image fit"><img src="{{img}}"></div>
+									{% endunless %}
+								{% endunless %}
+							{% endfor %}
+						</div>
+					</div>
+					<section>
+						<header class="align-left">
+							<h1>{{ page.project-title }} {{page.project-name}}</h1>
+						</header>
+						
+ 						<div class="row">
+							<div class="7u 12u(small)">
+								<section>
+									<p>{{ page.short-description }}</p>
+									<h4><b><i class="fa fa-caret-right" aria-hidden="true"></i> Проект: {{ page.price-project }}</b></h4>
+									{% if page.price-build %}
+									<h4><i class="fa fa-caret-right" aria-hidden="true"></i> Стройка: {{ page.price-build }}</h4>
+									{% endif %}
+								</section>
+							</div>
+							<div class="3u -1u 5u(medium) 12u(small)">
+								<section>
+									<ul class="actions vertical">
+										<li><a href="#" class="button fit">Заказать проект</a></li>
+										<li><a href="#" class="button alt fit">Задать вопрос</a></li>
+									</ul>
+								</section>
+							</div>
+						</div>
+						<div class="row uniform">
+							<div class="7u 12u(small)">
+								{% assign index = 1 %}
+								{% for img in img_array %}
+									{% if img contains "plan" %}
+									<h3>План {{index}}-го этажа</h3>
+									<div class="image plan"><img src="{{img}}"></div>
+									{% assign index = index | plus:1 %}
+									{% endif %}
+								{% endfor %}
+							</div>
+							<div class="5u 12u(small)">
+								<h3>Технические параметры</h3>
+								<div class="table-wrapper">
+									<table class="">
+										<tbody>
+											{% for param in page.params %}
+											<tr>
+												<td>{{ param.name }}</td>
+												<td>{{ param.value }}</td>
+											</tr>
+											{% endfor %}
+										</tbody>
+									</table>
+								</div>
+								<div class="row">
+									<div class="10u -1u 12u(small)">
+										<ul class="actions vertical small align-left arrow">
+											<li><a href="#">Скачать альбом проекта</a></</li>
+											<li><a href="#">Скачать презентацию</a></</li>
+										</ul>
+									</div>
+								</div>
+								<h3>Дополнительные опции</h3>
+								<div class="table-wrapper">
+									<table class="price">
+										<tbody>
+											{% for option in page.options %}
+											<tr>
+												<td>{{ option.name }}</td>
+												<td>{{ option.value }}</td>
+											</tr>
+											{% endfor %}
+										</tbody>
+									</table>
+								</div>
+								<div class="row">
+									<div class="10u -1u 12u(small)">
+										<section>
+											<ul class="actions vertical">
+												<li><a href="#" class="button fit">Заказать проект</a></li>
+											</ul>
+										</section>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<h3>О проекте</h3>
+								{{ content }}
+							</div>
+						</div>
+						
+					</section>
+					<section>
+						<header>
+							<h3 class="align-center">Другие проекты</h3>
+						</header>
+						<div class="row uniform">
+							<div class="4u 6u(medium) 12u(xsmall)">
+								<div class="box alt">
+									<a href="#" class="image fit">
+										<img src="/images/dom.jpg">
+									</a>
+									<h4><a href="#">Д-1-191</a></h4>
+									<h4 class="area">191 м<sup>2</sup></h4>
+								</div>
+							</div>
+							<div class="4u 6u(medium) 12u(xsmall)">
+								<div class="box alt">
+									<a href="#" class="image fit">
+										<img src="/images/dom.jpg">
+									</a>
+									<h4><a href="#">Д-1-191</a></h4>
+									<h4 class="area">191 м<sup>2</sup></h4>
+								</div>
+							</div>
+							<div class="4u 6u(medium) 12u(xsmall)">
+								<div class="box alt">
+									<a href="#" class="image fit">
+										<img src="/images/dom.jpg">
+									</a>
+									<h4><a href="#">Д-1-191</a></h4>
+									<h4 class="area">191 м<sup>2</sup></h4>
+								</div>
+							</div>
+						</div>
+						<footer class="align-center">
+							<ul class="actions">
+								<li><a class="button alt" href="#">Смотреть все проекты</a></li>
+							</ul>
+						</footer>
+					</section>
+					<section>
+					</section>
+				</article>
+			</div>
+
+		<!-- Footer -->
+		{% include footer.html %}
+
+		<!-- Scripts -->
+		{% include scripts.html %}
+		</div>
+	</body>
+</html>
