@@ -1,189 +1,396 @@
-/* skel-baseline v3.0.1 | (c) n33 | skel.io | MIT licensed */
-
 (function($) {
 
-	"use strict";
+	skel.breakpoints({
+		xlarge: '(max-width: 1680px)',
+		large: '(max-width: 1280px)',
+		medium: '(max-width: 980px)',
+		small: '(max-width: 736px)',
+		xsmall: '(max-width: 480px)'
+	});
 
-	// Methods/polyfills.
+	$(function() {
 
-		// addEventsListener
-			var addEventsListener=function(o,t,e){var n,i=t.split(" ");for(n in i)o.addEventListener(i[n],e)}
-
-		// classList | (c) @remy | github.com/remy/polyfills | rem.mit-license.org
-			!function(){function t(t){this.el=t;for(var n=t.className.replace(/^\s+|\s+$/g,"").split(/\s+/),i=0;i<n.length;i++)e.call(this,n[i])}function n(t,n,i){Object.defineProperty?Object.defineProperty(t,n,{get:i}):t.__defineGetter__(n,i)}if(!("undefined"==typeof window.Element||"classList"in document.documentElement)){var i=Array.prototype,e=i.push,s=i.splice,o=i.join;t.prototype={add:function(t){this.contains(t)||(e.call(this,t),this.el.className=this.toString())},contains:function(t){return-1!=this.el.className.indexOf(t)},item:function(t){return this[t]||null},remove:function(t){if(this.contains(t)){for(var n=0;n<this.length&&this[n]!=t;n++);s.call(this,n,1),this.el.className=this.toString()}},toString:function(){return o.call(this," ")},toggle:function(t){return this.contains(t)?this.remove(t):this.add(t),this.contains(t)}},window.DOMTokenList=t,n(Element.prototype,"classList",function(){return new t(this)})}}();
-
-	// Vars.
 		var	$window = $(window),
-			$body = document.querySelector('body'),
-			$header = $('#header'),
-			$banner = $('#banner-wrapper');
+			$body = $('body');
 
-	// Breakpoints.
-		skel.breakpoints({
-			xlarge:	'(max-width: 1680px)',
-			large:	'(max-width: 1280px)',
-			medium:	'(max-width: 980px)',
-			small:	'(max-width: 736px)',
-			xsmall:	'(max-width: 480px)'
-		});
-		
-	// Viewport	
-		skel.viewport({
-			breakpoints: {
-				small: {
-					scalable: false
-				}
-			}
-		});
+		// Disable animations/transitions until the page has loaded.
+			$body.addClass('is-loading');
 
-	// Disable animations/transitions until everything's loaded.
-		$body.classList.add('is-loading');
-
-		window.addEventListener('load', function() {
-			$body.classList.remove('is-loading');
-		});
-		
-	// Nav.
-		var	$nav = document.querySelector('#nav'),
-			$navToggle = document.querySelector('a[href="#nav"]'),
-			$navClose;
-
-		
-		// Hide function
-			var hideNav=function(){
-				$nav.classList.remove('visible');
-				$body.classList.remove('menu-visible');
-			};
-			
-		// Event: Prevent clicks/taps inside the nav from bubbling.
-			addEventsListener($nav, 'click touchend', function(event) {
-				event.stopPropagation();
-			});
-
-		// Event: Hide nav on body click/tap.
-			addEventsListener($body, 'click touchend', function(event) {
-				hideNav();
-			});
-			
-		// Toggle.
-
-			// Event: Toggle nav on click.
-				$navToggle.addEventListener('click', function(event) {
-
-					event.preventDefault();
-					event.stopPropagation();
-
-					$nav.classList.toggle('visible');
-					$body.classList.toggle('menu-visible');
-
-				});
-
-		// Close.
-
-			// Create element.
-				$navClose = document.createElement('a');
-					$navClose.href = '#';
-					$navClose.className = 'close';
-					$navClose.tabIndex = 0;
-					$nav.appendChild($navClose);
-
-			// Event: Hide on ESC.
-				window.addEventListener('keydown', function(event) {
-
-					if (event.keyCode == 27)
-						hideNav();
-
-				});
-
-			// Event: Hide nav on click.
-				$navClose.addEventListener('click', function(event) {
-
-					event.preventDefault();
-					event.stopPropagation();
-
-					hideNav();
-
-				});
-				
-		// Close on link click GRN
-		var
-			$this = $('#nav');
-			
-		$this.on('click', 'a', function(event) {
-
-			var $a = $(this),
-				href = $a.attr('href'),
-				target = $a.attr('target');
-
-			// if (!href || href == '#' || href == '' || href == '#' + id)
-				// return;
-
-			// Cancel original event.
-				event.preventDefault();
-				event.stopPropagation();
-
-			// Hide panel.
-				hideNav();
-
-			// Redirect to href.
+			$window.on('load', function() {
 				window.setTimeout(function() {
+					$body.removeClass('is-loading');
+				}, 0);
+			});
 
-					if (target == '_blank')
-						window.open(href);
-					else
-						window.location.href = href;
+		// Touch mode.
+			if (skel.vars.mobile)
+				$body.addClass('is-touch');
 
-				}, 500);
+		// Fix: Placeholder polyfill.
+			$('form').placeholder();
 
-		});
-	// Header.
-		$(document).ready(function(){
-			if ($header.hasClass('alt')) {
-				skel.on('+small', function() {
-					$header.removeClass('alt');
-					$banner.unscrollex();
-				});
-				skel.on('-small !small', function() {
-					$header.addClass('alt');
-					if (($banner.length > 0)
-					&&	($header.hasClass('alt'))
-					&&	(!skel.breakpoint('small').active)) {
+		// Prioritize "important" elements on medium.
+			skel.on('+medium -medium', function() {
+				$.prioritize(
+					'.important\\28 medium\\29',
+					skel.breakpoint('medium').active
+				);
+			});
 
-						$window.on('resize', function() { $window.trigger('scroll'); });
+		// Scrolly links.
+			$('.scrolly').scrolly({
+				speed: 2000
+			});
 
-						$banner.scrollex({
-							bottom:		$header.outerHeight() + 1,
-							terminate:	function() { $header.removeClass('alt'); },
-							enter:		function() { $header.addClass('alt reveal'); },
-							leave:		function() { $header.removeClass('alt'); }
+		// Dropdowns.
+			// $('#nav > ul').dropotron({
+				// alignment: 'right',
+				// hideDelay: 350
+			// });
+
+		// Off-Canvas Navigation.
+
+			// Title Bar.
+				$(
+					'<div id="titleBar">' +
+						'<a href="tel:+7(499)390-72-14" class="toggle"></a>' +
+						'<span class="title">' + $('#logo').html() + '</span>' +
+					'</div>'
+				)
+					.appendTo($body);
+
+			// Navigation Panel.
+				// $(
+					// '<div id="navPanel">' +
+						// '<nav>' +
+							// $('#nav').navList() +
+						// '</nav>' +
+					// '</div>'
+				// )
+					// .appendTo($body)
+					// .panel({
+						// delay: 500,
+						// hideOnClick: true,
+						// hideOnSwipe: true,
+						// resetScroll: true,
+						// resetForms: true,
+						// side: 'left',
+						// target: $body,
+						// visibleClass: 'navPanel-visible'
+					// });
+
+			// Fix: Remove navPanel transitions on WP<10 (poor/buggy performance).
+				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
+					$('#titleBar, #navPanel, #page-wrapper')
+						.css('transition', 'none');
+
+		// Parallax.
+		// Disabled on IE (choppy scrolling) and mobile platforms (poor performance).
+			if (skel.vars.browser == 'ie'
+			||	skel.vars.mobile) {
+
+				$.fn._parallax = function() {
+
+					return $(this);
+
+				};
+
+			}
+			else {
+
+				$.fn._parallax = function() {
+
+					$(this).each(function() {
+
+						var $this = $(this),
+							on, off;
+
+						on = function() {
+
+							$this
+								.css('background-position', 'center 0px');
+
+							$window
+								.on('scroll._parallax', function() {
+
+									var pos = parseInt($window.scrollTop()) - parseInt($this.position().top);
+
+									$this.css('background-position', 'center ' + (pos * -0.15) + 'px');
+
+								});
+
+						};
+
+						off = function() {
+
+							$this
+								.css('background-position', '');
+
+							$window
+								.off('scroll._parallax');
+
+						};
+
+						skel.on('change', function() {
+
+							if (skel.breakpoint('medium').active)
+								(off)();
+							else
+								(on)();
+
 						});
 
-					}
+					});
+
+					return $(this);
+
+				};
+
+				$window
+					.on('load resize', function() {
+						$window.trigger('scroll');
+					});
+
+			}
+
+		// Spotlights.
+			var $spotlights = $('.spotlight');
+
+			$spotlights
+				._parallax()
+				.each(function() {
+
+					var $this = $(this),
+						on, off;
+
+					on = function() {
+
+						// Use main <img>'s src as this spotlight's background.
+							$this.css('background-image', 'url("' + $this.find('.image.main > img').attr('src') + '")');
+
+						// Enable transitions (if supported).
+							if (skel.canUse('transition')) {
+
+								var top, bottom, mode;
+
+								// Side-specific scrollex tweaks.
+									if ($this.hasClass('top')) {
+
+										mode = 'top';
+										top = '-20%';
+										bottom = 0;
+
+									}
+									else if ($this.hasClass('bottom')) {
+
+										mode = 'bottom-only';
+										top = 0;
+										bottom = '20%';
+
+									}
+									else {
+
+										mode = 'middle';
+										top = 0;
+										bottom = 0;
+
+									}
+
+								// Add scrollex.
+									$this.scrollex({
+										mode:		mode,
+										top:		top,
+										bottom:		bottom,
+										initialize:	function(t) { $this.addClass('inactive'); },
+										terminate:	function(t) { $this.removeClass('inactive'); },
+										enter:		function(t) { $this.removeClass('inactive'); },
+
+										// Uncomment the line below to "rewind" when this spotlight scrolls out of view.
+
+										//leave:	function(t) { $this.addClass('inactive'); },
+
+									});
+
+							}
+
+					};
+
+					off = function() {
+
+						// Clear spotlight's background.
+							$this.css('background-image', '');
+
+						// Disable transitions (if supported).
+							if (skel.canUse('transition')) {
+
+								// Remove scrollex.
+									$this.unscrollex();
+
+							}
+
+					};
+
+					skel.on('change', function() {
+
+						if (skel.breakpoint('medium').active)
+							(off)();
+						else
+							(on)();
+
+					});
+
 				});
-			};
-		});
-				
-		if (skel.vars.IEVersion < 9)
-			$header.removeClass('alt');
+
+		// Wrappers.
+			var $wrappers = $('.wrapper');
+
+			$wrappers
+				.each(function() {
+
+					var $this = $(this),
+						on, off;
+
+					on = function() {
+
+						if (skel.canUse('transition')) {
+
+							$this.scrollex({
+								top:		250,
+								bottom:		0,
+								initialize:	function(t) { $this.addClass('inactive'); },
+								terminate:	function(t) { $this.removeClass('inactive'); },
+								enter:		function(t) { $this.removeClass('inactive'); },
+
+								// Uncomment the line below to "rewind" when this wrapper scrolls out of view.
+
+								//leave:	function(t) { $this.addClass('inactive'); },
+
+							});
+
+						}
+
+					};
+
+					off = function() {
+
+						if (skel.canUse('transition'))
+							$this.unscrollex();
+
+					};
+
+					skel.on('change', function() {
+
+						if (skel.breakpoint('medium').active)
+							(off)();
+						else
+							(on)();
+
+					});
+
+				});
+
+		// Banner.
+			var $banner = $('#banner');
+
+			$banner
+				._parallax();
+
+	});
 	
-	// Slick slider	
-		$(document).ready(function(){
-			  $('.slick').slick({
-				dots: true,
-				arrows: true,
-				infinite: true,
-				speed: 700
-			  });
-			});
-			
-		$(document).ready(function(){
-			$('.slider').slick({
-				dots: true,
-				arrows: true,
-				infinite: true,
-				speed: 700
-			});
-			  
+	// Fancybox init
+	$(document).ready(function() {
+		$(".fancybox").fancybox({
+			padding		: 0,
+			autoSize : true,
+			fitToView : true,
+			beforeLoad : function() {         
+				this.width  = parseInt(this.element.data('fancybox-width'));  
+				this.height = parseInt(this.element.data('fancybox-height'));
+				this.fitToView  = !(this.element.data('fancybox-fit') == false);
+			},
+			helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0,
+						showEarly : true
+						}
+					}
 		});
+	});
+	
+	// Forms validation
+	$(".ajax-form-msg").validate({
+		rules: {
+			name: {
+			required: true,
+			minlength: 2
+			},
+			email: {
+			required: true,
+			email: true
+			},
+			message: {
+			required: true,
+			}
+		},
+		messages: {
+			name: "Укажите Ваше имя",
+			email: {
+			  required: "Укажите Ваш e-mail",
+			  email: "Формат: name@domain.com"
+			},
+			message: {
+			  required: "Напишите нам что-нибудь"
+			}
+		},
+		// errorPlacement: function(error, element) {
+		// },
+		submitHandler: function(form) {
+			$.ajax({
+				dataType: "jsonp",
+				url: "https://getsimpleform.com/messages/ajax?form_api_token=f346c137e5a7ca4624adddbae2e9b3a4",
+				data: $(".ajax-form-msg").serialize() 
+				}).done(function() {
+				//callback which can be used to show a thank you message
+				//and reset the form
+				$(".ajax-form-msg").hide();
+				$(".form-thank-you-msg").fadeIn("400");
+			});
+			return false; //to stop the form from submitting
+		}
+	});
+	
+	$(".ajax-form-callback").validate({
+		rules: {
+			name: {
+			required: true,
+			minlength: 2
+			},
+			phone: {
+			required: true
+			}
+		},
+		messages: {
+			name: "Укажите Ваше имя",
+			phone: "Укажите Ваш телефон"
+		},
+		// errorPlacement: function(error, element) {
+		// },
+		submitHandler: function(form) {
+			$.ajax({
+				dataType: "jsonp",
+				url: "https://getsimpleform.com/messages/ajax?form_api_token=f346c137e5a7ca4624adddbae2e9b3a4",
+				data: $(".ajax-form-callback").serialize() 
+				}).done(function() {
+				//callback which can be used to show a thank you message
+				//and reset the form
+				$(".ajax-form-callback").hide();
+				$(".form-thank-you-callback").fadeIn("400");
+			});
+			return false; //to stop the form from submitting
+		}
+	});
 
 })(jQuery);
