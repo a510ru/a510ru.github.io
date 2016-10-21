@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+
+<html>
+	{% include head.html %}
+	{% seo %}
+	<body id="top">
+		<div id="page-wrapper">
+		<!-- Header -->
+		{% include header.html %}
+
+		<!-- Nav -->
+		{% include nav.html %}
+
+		<!-- Banner -->
+		{% include banner-generic.html %}
+		
+		<!-- Main -->
+			<div id="not-main">
+				<article>
+					<section class="container">
+						<header class="align-center">
+							<h1>{{ page.page-title }}</h1>
+						</header>
+						<div class="row">
+							<div class="8u 12u(small)">
+								<section>
+									<p>Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum.</p>
+								</section>
+							</div>
+							<div class="4u 12u(small)">
+								<section>
+									<ul class="actions vertical small align-left arrow">
+										<li><a href="#">Индивидуальные дома</a></</li>
+										<li><a href="#">Таунхаусы - Дуплексы</a></</li>
+										<li><a href="#">Квадрохаусы</a></</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+						<div class="row uniform">
+						{% assign sorted_cat = site.proekty | sort: 'weight' %}
+						{% for project in sorted_cat %}
+							{% if project.type != "category" and project.url contains page.url %}
+								<div class="4u 6u(medium) 12u(xsmall)">
+									<div class="box alt">
+										<a href="{{project.url}}" class="image fit project">
+											<img src="/images/{{project.url}}-1-small.jpg">
+											<div class="project-wrapper">
+												<h5>{{project.project-title}} <span>{{project.project-name}}</span></h5>
+												<p>{{project.tiny-description}}</p>
+											</div>
+										</a>
+										<h4><a href="{{project.url}}">{{project.project-name}}</a></h4>
+										{% if project.area %}
+										<h4 class="area">{{project.area}}м<sup>2</sup></h4>
+										{% endif %}
+									</div>
+								</div>
+							{% endif %}
+						{% endfor %}
+						</div>
+						{{ content }}
+					</section>
+				</article>
+			</div>
+
+		<!-- Footer -->
+		{% include footer.html %}
+
+		<!-- Scripts -->
+		{% include scripts.html %}
+		</div>
+	</body>
+</html>

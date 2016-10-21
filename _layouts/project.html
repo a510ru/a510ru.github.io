@@ -16,17 +16,21 @@
 				<article class="container">
 					<div class="banner-product">
 						{% assign img_array = "" | split:"," %}
+						{% assign url_list = page.url | split: "/" %}
+						{% assign project-name = url_list | last %}
 						{% for file in site.static_files %}
-							{% if file.path contains page.url %}
+							{% if file.path contains project-name %}
 								{% assign img_array = img_array | push: file.path %}
 							{% endif %}
 						{% endfor %}
 						<div class="slider">
-							<!-- {% for img in img_array %} -->
-							<a href="#" class="image fit"><img src="/images/dom2.jpg"></a>
-						<!-- 	{% endfor %} -->
-							<a href="#" class="image fit"><img src="/images/banner-dom3.jpg"></a>
-							<a href="#" class="image fit"><img src="/images/banner-dom4.jpg"></a>
+							{% for img in img_array %}
+								{% unless img contains "plan" %}
+								{% unless img contains "small" %}
+								<div class="image fit"><img src="{{img}}"></div>
+								{% endunless %}
+								{% endunless %}
+							{% endfor %}
 						</div>
 					</div>
 					<section>
@@ -55,13 +59,14 @@
 						</div>
 						<div class="row uniform">
 							<div class="7u 12u(small)">
-								{% assign url_list = page.url | split: '/' %}
-								{% assign project-name = url_list | last %}
-								
-								<h3>План этажа</h3>
-								<a href="#" class="image plan"><img src="/images/proekty/dom1.png"></a>
-								<h3>План этажа</h3>
-								<a href="#" class="image plan"><img src="/images/proekty/dom2.png"></a>
+								{% assign index = 1 %}
+								{% for img in img_array %}
+									{% if img contains "plan" %}
+									<h3>План {{index}}-го этажа</h3>
+									<div class="image plan"><img src="{{img}}"></div>
+									{% assign index = index | plus:1 %}
+									{% endif %}
+								{% endfor %}
 							</div>
 							<div class="5u 12u(small)">
 								<h3>Технические параметры</h3>
