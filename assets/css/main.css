@@ -528,6 +528,7 @@
 		
 		.box.stage {
 			height: 14em;
+			border-radius:0;
 		}
 		
 		.box.stage h3{
