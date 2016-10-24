@@ -525,7 +525,41 @@
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
-
+		
+		.box.stage {
+			height: 14em;
+		}
+		
+		.box.stage h3{
+			color: #fcfbfa;
+			background-color: #100e11;
+			text-align: center;
+			height: 2em;
+			width: 2em;
+			margin: 0 auto;
+			line-height: 2em;
+			border-radius: 1.5em;
+			font-weight: 700;
+			letter-spacing: normal;
+			font-size: 2em;
+		}
+		
+		.box.stage p{
+			margin-top: 1em;
+		}
+		
+			@media screen and (max-width: 1280px) {
+				.box.stage {
+					height: 18em;
+				}
+			}
+			
+			@media screen and (max-width: 480px) {
+				.box.stage {
+					height: 14em;
+				}
+			}
+		
 		.box > :last-child,
 		.box > :last-child > :last-child,
 		.box > :last-child > :last-child > :last-child {
