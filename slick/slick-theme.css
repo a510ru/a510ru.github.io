@@ -37,6 +37,7 @@
     background: transparent;
 	box-shadow: none;
 	z-index: 1000;
+	transform: scale(0.8,1.2);
 }
 
 	@media screen and (max-width: 736px) {
