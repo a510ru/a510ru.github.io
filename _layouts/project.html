@@ -82,11 +82,25 @@
 										</tbody>
 									</table>
 								</div>
+								{% assign album-name = page.project-name | downcase | append: '-album.pdf' %}
+								{% assign present-name = page.project-name | downcase | append: '-present.pdf' %}
+								{% for file in site.static_files %}
+									{% if file.path contains album-name %}
+										{% assign album-link = file.path %}
+									{% endif %}
+									{% if file.path contains present-name %}
+										{% assign present-link = file.path %}
+									{% endif %}
+								{% endfor %}
 								<div class="row">
 									<div class="10u -1u 12u(small)">
 										<ul class="actions vertical small align-left arrow">
-											<li><a href="#">Скачать альбом проекта</a></</li>
-											<li><a href="#">Скачать презентацию</a></</li>
+											{% if album-link %}
+											<li><a href="{{album-link}}">Скачать альбом проекта</a></</li>
+											{% endif %}
+											{% if present-link %}
+											<li><a href="{{present-link}}">Скачать презентацию</a></</li>
+											{% endif %}
 										</ul>
 									</div>
 								</div>
