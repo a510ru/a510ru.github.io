@@ -41,6 +41,7 @@
 								</section>
 							</div>
 						</div>
+						<section class="front">
 						<div class="row uniform">
 						{% assign sorted_cat = site.proekty | sort: 'weight' %}
 						{% for project in sorted_cat %}
@@ -63,6 +64,7 @@
 							{% endif %}
 						{% endfor %}
 						</div>
+						</section>
 						<div class="row">
 						{{ content }}
 						</div>

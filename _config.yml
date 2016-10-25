@@ -5,3 +5,5 @@ gems:
 collections:
   proekty:
     output: true
+  portfolio:
+    output: true

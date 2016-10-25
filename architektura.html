@@ -261,4 +261,28 @@ page-title: Архитектурное бюро А510
 </section>
 <section class="front">
 	<h2 class="align-center">Портфолио</h2>
+	<div class="row uniform">
+	{% assign sorted_cat = site.portfolio | sort: 'weight' %}
+	{% for project in sorted_cat %}
+		
+			<div class="4u 6u(medium) 12u(xsmall)">
+				<div class="box alt" style="border:0">
+					<a href="{{project.url}}" class="image fit project">
+						<img src="/images/{{project.url}}-1-small.jpg">
+						<div class="project-wrapper">
+							<h5>{{project.project-title}}</span></h5>
+							
+						</div>
+					</a>
+					
+				</div>
+			</div>
+		
+	{% endfor %}
+	</div>
+	<footer class="align-center">
+		<ul class="actions">
+			<li><a class="button alt" href="/portfolio/">Смотреть портфолио</a></li>
+		</ul>
+	</footer>
 </section>

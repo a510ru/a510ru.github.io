@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+
+<html>
+	{% include head.html %}
+	{% seo %}
+	<body id="top">
+		<div id="page-wrapper">
+		<!-- Header -->
+		{% include header.html %}
+
+		<!-- Nav -->
+		{% include nav.html %}
+
+		<!-- Main -->
+			<div id="not-main">
+				<div class="container banner-product">
+					{% assign img_array = "" | split:"," %}
+					{% assign url_list = page.url | split: "/" %}
+					{% assign project-name = url_list | last %}
+					{% for file in site.static_files %}
+						{% if file.path contains project-name %}
+							{% assign img_array = img_array | push: file.path %}
+						{% endif %}
+					{% endfor %}
+					<div class="slider">
+						{% for img in img_array %}
+							{% unless img contains "plan" %}
+								{% unless img contains "small" %}
+								<div class="image fit"><img src="{{img}}"></div>
+								{% endunless %}
+							{% endunless %}
+						{% endfor %}
+					</div>
+				</div>
+				<article class="container">
+					
+					<section>
+						<header class="align-left">
+							<h1>{{ page.project-title }}</h1>
+						</header>
+						
+ 						<div class="row">
+							<div class="7u 12u(small)">
+								<section>
+									<p>{{ page.short-description }}</p>
+								</section>
+							</div>
+							<div class="5u 12u(small)">
+								<section>
+									<div class="table-wrapper">
+										<table class="price">
+											<tbody>
+												{% for option in page.options %}
+												<tr>
+													<td>{{ option.name }}</td>
+													<td>{{ option.value }}</td>
+												</tr>
+												{% endfor %}
+											</tbody>
+										</table>
+									</div>
+								</section>
+							</div>
+						</div>
+						<footer class="align-center">
+							<ul class="actions">
+								<li><a class="button alt" href="/portfolio">Вернуться в портфолио</a></li>
+							</ul>
+						</footer>
+					</section>	
+					
+				</article>
+			</div>
+
+		<!-- Footer -->
+		{% include footer.html %}
+
+		<!-- Scripts -->
+		{% include scripts.html %}
+		</div>
+	</body>
+</html>
