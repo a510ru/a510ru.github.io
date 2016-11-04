@@ -2,7 +2,7 @@
 title: A510 - Contacts
 description: Contacts
 layout: generic
-permalink: /proekty/
+permalink: /proekty/2/
 
 page-title: Типовые проекты
 page-description: Типовые проекты Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
@@ -28,10 +28,11 @@ page-description: Типовые проекты Lorem, ipsum adipiscing quam mal
 {% assign i = 0 %}
 {% for project in sorted_cat %}
 	{% if project.type != "category" %}
-		{% assign i = i | plus: 1 %}
-		{% if i > 12 %}
-			{% break %}
+		{% if i < 12 %}
+			{% assign i = i | plus: 1 %}
+			{% continue %}
 		{% endif %}
+		{% assign i = i | plus: 1 %}
 		<div class="4u 6u(medium) 12u(xsmall)">
 			<div class="box alt">
 				<a href="{{project.url}}" class="image fit project">
@@ -48,13 +49,12 @@ page-description: Типовые проекты Lorem, ipsum adipiscing quam mal
 			</div>
 		</div>
 	{% endif %}
+	
 {% endfor %}
 </div>
-{% if i > 12 %}
 <div class="pagination">
 	<ul class="actions">
-		<li><span class="button disabled">1</span></li>
-		<li><a href="/proekty/2/" class="button">2</a></li>
+		<li><a href="/proekty/" class="button">1</a></li>
+		<li><span class="button disabled">2</span></li>
 	</ul>
 </div>
-{% endif %}

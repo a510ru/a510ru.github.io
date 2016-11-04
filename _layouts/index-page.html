@@ -2,7 +2,7 @@
 
 <html>
 	{% include head.html %}
-	{% seo %}
+	
 	<body id="top" class="index">
 		<div id="page-wrapper">
 		<!-- Header -->
@@ -20,7 +20,8 @@
 					{{ content }}
 				</article>
 			</div>
-
+		{% include cta.html %}
+		
 		<!-- Footer -->
 		{% include footer.html %}
 

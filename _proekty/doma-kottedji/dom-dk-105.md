@@ -2,21 +2,19 @@
 title: Тайтл страница - А510
 description: Дескрипшон старницы. Длинный.
 
-layout: project
+layout: project-one-floor
 permalink: /proekty/:path
 
-featured: 1
-
 project-title: Двухэтажный дом
-project-name: DK-191
-tiny-description: Современный дом в навесом
+project-name: DK-100
+tiny-description: Современный дом без навеса
 
 short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
 
 price-project: "60 000 р"
 price-build: "5 540 000 р"
 
-area: "191"
+area: "100"
 
 params:
 - name: "Площадь дома:"

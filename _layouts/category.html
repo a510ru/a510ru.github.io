@@ -2,7 +2,7 @@
 
 <html>
 	{% include head.html %}
-	{% seo %}
+	
 	<body id="top">
 		<div id="page-wrapper">
 		<!-- Header -->
@@ -51,7 +51,7 @@
 										<a href="{{project.url}}" class="image fit project">
 											<img src="/images/{{project.url}}-1-small.jpg">
 											<div class="project-wrapper">
-												<h5>{{project.project-title}} <span>{{project.project-name}}</span></h5>
+												<h3>{{project.project-title}} <span>{{project.project-name}}</span></h3>
 												<p>{{project.tiny-description}}</p>
 											</div>
 										</a>
@@ -71,7 +71,7 @@
 					</section>
 				</article>
 			</div>
-
+		{% include cta.html %}
 		<!-- Footer -->
 		{% include footer.html %}
 

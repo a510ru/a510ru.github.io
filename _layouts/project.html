@@ -2,7 +2,7 @@
 
 <html>
 	{% include head.html %}
-	{% seo %}
+	
 	<body id="top">
 		<div id="page-wrapper">
 		<!-- Header -->
@@ -52,8 +52,8 @@
 							<div class="3u -1u 5u(medium) 12u(small)">
 								<section>
 									<ul class="actions vertical">
-										<li><a href="#" class="button fit">Заказать проект</a></li>
-										<li><a href="#" class="button alt fit">Задать вопрос</a></li>
+										<li><span class="button fit modal-open" data-modal="modal-order">Заказать проект</span></li>
+										<li><span class="button alt fit modal-open" data-modal="modal-question">Задать вопрос</span></li>
 									</ul>
 								</section>
 							</div>
@@ -94,7 +94,7 @@
 									{% endif %}
 								{% endfor %}
 								<div class="row">
-									<div class="10u -1u 12u(small)">
+									<div class="10u -1u 12u(medium)">
 										<ul class="actions vertical small align-left arrow">
 											{% if album-link %}
 											<li><a href="{{album-link}}">Скачать альбом проекта</a></</li>
@@ -119,10 +119,10 @@
 									</table>
 								</div>
 								<div class="row">
-									<div class="10u -1u 12u(small)">
+									<div class="10u -1u 12u(medium)">
 										<section>
 											<ul class="actions vertical">
-												<li><a href="#" class="button fit">Заказать проект</a></li>
+												<li><span class="button fit modal-open" data-modal="modal-order">Заказать проект</span></li>
 											</ul>
 										</section>
 									</div>
@@ -172,14 +172,15 @@
 						</div>
 						<footer class="align-center">
 							<ul class="actions">
-								<li><a class="button alt" href="#">Смотреть все проекты</a></li>
+								<li><a class="button alt" href="/proekty/">Смотреть все проекты</a></li>
 							</ul>
 						</footer>
 					</section>
 					
 				</article>
 			</div>
-
+		{% include forms-product.html %}
+		{% include cta.html %}
 		<!-- Footer -->
 		{% include footer.html %}
 
