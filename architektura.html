@@ -8,7 +8,9 @@ page-title: Архитектурное бюро А510
 ---
 <p>Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.</p>
 <section class="front">
-	<h2 class="align-center">Что мы делаем</h2>
+	<header>
+		<h2 class="align-center">Что мы делаем</h2>
+	</header>
 	<h3>Для частных заказчиков</h3>
 		<span class="button accordion">Архитектурное проектирование</span>
 		<div class="acc-panel">
@@ -235,7 +237,9 @@ page-title: Архитектурное бюро А510
 		</div>
 </section>
 <section class="front">
-	<h2 class="align-center">Направления работы</h2>
+	<header>
+		<h2 class="align-center">Направления работы</h2>
+	</header>
 	<p>Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.</p>
 	<div class="row">
 		<div class="6u 12u(small)">
@@ -312,7 +316,9 @@ page-title: Архитектурное бюро А510
 	</div>
 </section>
 <section class="front">
-	<h2 class="align-center">Портфолио</h2>
+	<header>
+		<h2 class="align-center">Портфолио</h2>
+	</header>
 	<div class="row uniform">
 	{% assign sorted_cat = site.portfolio | sort: 'weight' %}
 	{% for project in sorted_cat %}
