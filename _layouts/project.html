@@ -26,7 +26,9 @@
 						{% for img in img_array %}
 							{% unless img contains "plan" %}
 								{% unless img contains "small" %}
-								<div class="image fit"><img src="{{img}}"></div>
+									{% unless img contains "pdf" %}
+										<div class="image fit"><img src="{{img}}"></div>
+									{% endunless %}
 								{% endunless %}
 							{% endunless %}
 						{% endfor %}
@@ -40,26 +42,26 @@
 						</header>
 						
  						<div class="row">
-							<div class="7u 12u(small)">
-								<section>
+							<div class="7u 12u(medium)">
+								
 									<p>{{ page.short-description }}</p>
 									<h4><b><i class="fa fa-caret-right" aria-hidden="true"></i> Проект: {{ page.price-project }}</b></h4>
 									{% if page.price-build %}
 									<h4><i class="fa fa-caret-right" aria-hidden="true"></i> Стройка: {{ page.price-build }}</h4>
 									{% endif %}
-								</section>
+								
 							</div>
-							<div class="3u -1u 5u(medium) 12u(small)">
-								<section>
+							<div class="3u -1u 6u(medium) -3u(medium) 8u(small) -2u(small) 12u(xsmall)">
+								
 									<ul class="actions vertical">
 										<li><span class="button fit modal-open" data-modal="modal-order">Заказать проект</span></li>
 										<li><span class="button alt fit modal-open" data-modal="modal-question">Задать вопрос</span></li>
 									</ul>
-								</section>
+								
 							</div>
 						</div>
 						<div class="row uniform">
-							<div class="7u 12u(small)">
+							<div class="7u 12u(medium)">
 								{% assign index = 1 %}
 								{% for img in img_array %}
 									{% if img contains "plan" %}
@@ -69,7 +71,7 @@
 									{% endif %}
 								{% endfor %}
 							</div>
-							<div class="5u 12u(small)">
+							<div class="5u 12u(medium)">
 								<h3>Технические параметры</h3>
 								<div class="table-wrapper">
 									<table class="">
@@ -119,12 +121,12 @@
 									</table>
 								</div>
 								<div class="row">
-									<div class="10u -1u 12u(medium)">
-										<section>
+									<div class="10u -1u 6u(medium) -3u(medium) 8u(small) -2u(small) 12u(xsmall)">
+										
 											<ul class="actions vertical">
 												<li><span class="button fit modal-open" data-modal="modal-order">Заказать проект</span></li>
 											</ul>
-										</section>
+										
 									</div>
 								</div>
 							</div>
