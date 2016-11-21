@@ -70,10 +70,12 @@
 									{% assign index = index | plus:1 %}
 									{% endif %}
 								{% endfor %}
+								{% if content.size > 4 %}
 								<section>
 									<h3>О проекте</h3>
 									{{ content }}
 								</section>
+								{% endif %}
 							</div>
 							<div class="5u 12u(medium)">
 								<h3>Технические параметры</h3>

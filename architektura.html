@@ -322,7 +322,7 @@ page-title: Архитектурное бюро А510
 	<div class="row uniform">
 	{% assign sorted_cat = site.portfolio | sort: 'weight' %}
 	{% for project in sorted_cat %}
-		
+		{% if project.featured %}
 			<div class="4u 6u(medium) 12u(xsmall)">
 				<div class="box alt" style="border:0">
 					<a href="{{project.url}}" class="image fit project">
@@ -335,7 +335,7 @@ page-title: Архитектурное бюро А510
 					
 				</div>
 			</div>
-		
+		{% endif %}
 	{% endfor %}
 	</div>
 	<footer class="align-center">
