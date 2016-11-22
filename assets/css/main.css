@@ -298,11 +298,11 @@
 			top: 100%;
 		}
 		
-			section.front header h1, section.front header h2{
+			.front header h1, .front header h2{
 				padding-bottom: 1em;
 			}
 			
-			section.front header h1:after, section.front header h2:after{
+			.front header h1:after, .front header h2:after{
 				width: 50%;
 				left: 25%;
 			}
