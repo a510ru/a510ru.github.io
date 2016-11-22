@@ -16,33 +16,28 @@
 		
 		<!-- Main -->
 			<div id="not-main">
-				<article>
-					<section class="container">
-						<header class="align-center">
-							<h1>{{ page.page-title }}</h1>
-						</header>
-						<div class="row">
-							<div class="8u 12u(medium)">
-								<section>
-									<p>{{page.page-description}}</p>
-								</section>
-							</div>
-							<div class="4u 12u(medium)">
-								<section>
-									<ul class="actions vertical small align-left arrow-alt">
-										{% for category in site.proekty %}
-											{% if category.type == "category" %}
-												{% unless category.url contains page.url %}
-												<li><a href="{{category.url}}">{{category.page-short-title}}</a></li>
-												{% endunless %}
-											{% endif %}
-										{% endfor %}
-										<li><a href="/proekty/">Все проекты</a></</li>
-									</ul>
-								</section>
-							</div>
+				<article class="container">
+					<header class="align-center">
+						<h1>{{ page.page-title }}</h1>
+					</header>
+					<div class="row">
+						<div class="8u 12u(medium)">
+							<p>{{page.page-description}}</p>
 						</div>
-						<section class="front">
+						<div class="4u 12u(medium)">
+							<ul class="actions vertical small align-left arrow-alt">
+								{% for category in site.proekty %}
+									{% if category.type == "category" %}
+										{% unless category.url contains page.url %}
+										<li><a href="{{category.url}}">{{category.page-short-title}}</a></li>
+										{% endunless %}
+									{% endif %}
+								{% endfor %}
+								<li><a href="/proekty/">Все проекты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="front">
 						<div class="row uniform">
 						{% assign sorted_cat = site.proekty | sort: 'weight' %}
 						{% for project in sorted_cat %}
@@ -65,11 +60,10 @@
 							{% endif %}
 						{% endfor %}
 						</div>
-						</section>
-						<div class="row">
+					</div>
+					<div class="row">
 						{{ content }}
-						</div>
-					</section>
+					</div>
 				</article>
 			</div>
 		{% include cta.html %}
