@@ -27,7 +27,7 @@
 							{% unless img contains "plan" %}
 								{% unless img contains "small" %}
 									{% unless img contains "pdf" %}
-										<div class="image fit"><img src="{{img}}"></div>
+										<div class="image fit"><img src="{{img}}" alt="{{page.project-title}}-{{forloop.index}}"></div>
 									{% endunless %}
 								{% endunless %}
 							{% endunless %}

@@ -5,7 +5,8 @@ description: Индивидуальный проект коттеджного п
 layout: port-project
 permalink: /portfolio/:path
 weight: 40
-project-title: Коттеджный поселок "Эсквайр Парк"
+featured: 1
+project-title: "Коттеджный поселок 'Эсквайр Парк'"
 
 short-description: NET OPISANIYA!!!
 

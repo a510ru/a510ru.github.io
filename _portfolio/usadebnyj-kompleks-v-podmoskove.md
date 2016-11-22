@@ -5,6 +5,7 @@ description: Индивидуальный проект усадебного ко
 layout: port-project
 permalink: /portfolio/:path
 weight: 80
+featured: 1
 project-title: Усадебный комплекс в Подмосковье
 
 short-description: NET OPISANIYA!!!

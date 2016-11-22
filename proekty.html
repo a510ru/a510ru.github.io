@@ -1,10 +1,10 @@
 ---
-title: A510 - Contacts
-description: Contacts
+title: Готовые проекты загородных домов и коттеджей из кирпича - А510
+description: Готовые проекты современных загородных домов из кирпича, газобетона и пеноблоков. Одно- и двухэтажные, с мансардой и гаражом.
 layout: generic
 permalink: /proekty/
 
-page-title: Типовые проекты
+page-title: Готовые проекты
 page-description: Типовые проекты Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
 ---
 <div class="row">
@@ -29,13 +29,13 @@ page-description: Типовые проекты Lorem, ipsum adipiscing quam mal
 {% for project in sorted_cat %}
 	{% if project.type != "category" %}
 		{% assign i = i | plus: 1 %}
-		{% if i > 12 %}
+		{% if i > 21 %}
 			{% break %}
 		{% endif %}
 		<div class="4u 6u(medium) 12u(xsmall)">
 			<div class="box alt">
 				<a href="{{project.url}}" class="image fit project">
-					<img src="/images/{{project.url}}-1-small.jpg">
+					<img src="/images/{{project.url}}-1-small.jpg" alt="{{project.tiny-description}}" title="{{project.project-catalog-title}}">
 					<div class="project-wrapper">
 						<h3>{{project.project-catalog-title}} <span>{{project.project-name}}</span></h3>
 						<p>{{project.tiny-description}}</p>
@@ -50,7 +50,7 @@ page-description: Типовые проекты Lorem, ipsum adipiscing quam mal
 	{% endif %}
 {% endfor %}
 </div>
-{% if i > 12 %}
+{% if i > 21 %}
 <div class="pagination">
 	<ul class="actions">
 		<li><span class="disabled">1</span></li>
