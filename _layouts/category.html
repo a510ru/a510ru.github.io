@@ -33,7 +33,7 @@
 										{% for category in site.proekty %}
 											{% if category.type == "category" %}
 												{% unless category.url contains page.url %}
-												<li><a href="{{category.url}}">{{category.page-short-title}}</a></</li>
+												<li><a href="{{category.url}}">{{category.page-short-title}}</a></li>
 												{% endunless %}
 											{% endif %}
 										{% endfor %}
