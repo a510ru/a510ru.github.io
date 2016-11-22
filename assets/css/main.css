@@ -1432,14 +1432,25 @@
 		z-index: 10003;
 	}
 		
-		#nav h1 {
+		#nav header {
 			text-align: center;
 		}
 		
-			#nav h1:after {
-				display: none;
+			#nav header a{
+				display:block;
+				font-size: 2em;
+				line-height: 1.5;
+				margin: 0 0 1em 0;
+				text-transform: uppercase;
+				letter-spacing: 0.225em;
 			}
 		
+			@media screen and (max-width: 480px) {
+				#nav header a{
+					font-size: 1.5em;
+				}
+			} 
+			
 		#nav  ul {
 			margin: 0 0 1em 0;
 		}
