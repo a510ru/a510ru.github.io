@@ -7,7 +7,7 @@ permalink: /portfolio/:path
 
 weight: 50
 featured: 1
-project-title: Индивидуальный дом в стиле Райта
+project-title: Индивидуальный дом в стиле Райта
 
 short-description: NET OPISANIYA!!!
 

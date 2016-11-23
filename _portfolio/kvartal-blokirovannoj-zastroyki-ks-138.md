@@ -6,7 +6,7 @@ layout: port-project
 permalink: /portfolio/:path
 weight: 20
 featured: 1
-project-title: Квартал блокированной застройки KS-138
+project-title: Квартал блокированной застройки KS-138
 
 short-description: NET OPISANIYA!!!
 
