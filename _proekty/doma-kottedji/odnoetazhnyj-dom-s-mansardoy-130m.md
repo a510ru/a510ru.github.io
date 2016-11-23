@@ -5,7 +5,7 @@ description: Готовый проект одноэтажного дома (ко
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 70
 
 project-title: Одноэтажный дом с мансардой
 project-catalog-title: Дом с мансардой
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "130"
+
+related:
+- DK-100
+- DK-120
+- DK-150
 
 params:
 - name: "Площадь дома:"

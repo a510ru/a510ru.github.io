@@ -5,7 +5,7 @@ description: Готовый проект четырехсекционного б
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 500
 
 project-title: Блокированный дом квадрохаус
 project-catalog-title: Квадрохаус
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "73"
+
+related:
+- KP-70
+- KP-104
+- TD-79
 
 params:
 - name: "Площадь дома:"

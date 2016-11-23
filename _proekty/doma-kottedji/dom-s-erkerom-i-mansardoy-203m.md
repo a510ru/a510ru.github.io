@@ -5,7 +5,7 @@ description: Типовой проект дома (коттеджа) с эрке
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 330
 
 project-title: Дом с эркером и мансардой
 project-catalog-title: Двухэтажный коттедж
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "203"
+
+related:
+- DK-213
+- DK-191
+- DK-192
 
 params:
 - name: "Площадь дома:"

@@ -5,7 +5,7 @@ description: Готовый проект трехэтажного дома на 
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 530
 
 project-title: Трехэтажный дом на 12 квартир
 project-catalog-title: Трехэтажный дом

@@ -6,6 +6,7 @@ layout: project
 permalink: /proekty/:path
 
 featured: 1
+weight: 20
 
 project-title: Красивый таунхаус
 project-catalog-title: Красивый дуплекс
@@ -18,6 +19,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "106"
+
+related:
+- TD-128
+- TD-79
+- TP-100
 
 params:
 - name: "Площадь дома:"

@@ -6,6 +6,7 @@ layout: project
 permalink: /proekty/:path
 
 featured: 1
+weight: 50
 
 project-title: Небольшой дом с мансардой
 project-catalog-title: Небольшой коттедж
@@ -18,6 +19,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "120"
+
+related:
+- DK-100
+- DK-130
+- TD-106
 
 params:
 - name: "Площадь дома:"

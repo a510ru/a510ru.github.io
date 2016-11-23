@@ -5,7 +5,7 @@ description: Готовый проект четырехсекционного б
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 520
 
 project-title: Четырехсекционный дом
 project-catalog-title: Квадрохаус
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "70"
+
+related:
+- KP-104
+- KB-73
+- TP-107
 
 params:
 - name: "Площадь дома:"

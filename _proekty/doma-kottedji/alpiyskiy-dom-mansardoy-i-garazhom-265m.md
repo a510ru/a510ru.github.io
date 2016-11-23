@@ -5,7 +5,7 @@ description: Типовой проект альпийского дома (кот
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 250
 
 project-title: Альпийский дом с эркером
 project-catalog-title: Дом с мансардой
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "265"
+
+related:
+- DP-336
+- DK-213
+- DK-191
 
 params:
 - name: "Площадь дома:"

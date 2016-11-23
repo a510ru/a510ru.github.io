@@ -5,7 +5,7 @@ description: Типовой проект просторного таунхаус
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 220
 
 project-title: Просторный таунхаус с гаражом
 project-catalog-title: Большой дуплекс
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "290"
+
+related:
+- TP-220
+- TD-123
+- DK-213
 
 params:
 - name: "Площадь дома:"

@@ -5,7 +5,7 @@ description: Готовый проект небольшого таунхауса
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 160
 
 project-title: Небольшой таунхаус
 project-catalog-title: Небольшой дуплекс
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "99"
+
+related:
+- TD-79
+- KB-73
+- TP-100
 
 params:
 - name: "Площадь дома:"

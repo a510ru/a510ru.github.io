@@ -5,7 +5,7 @@ description: Типовой проект дома (коттеджа) в клас
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 310
 
 project-title: Коттедж в классическом стиле
 project-catalog-title: Роскошный дом
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "471"
+
+related:
+- DP-504
+- DP-438
+- DK-213
 
 params:
 - name: "Площадь дома:"

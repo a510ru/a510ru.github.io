@@ -5,7 +5,7 @@ description: Готовый проект таунхауса на 4 семьи (�
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 510
 
 project-title: Таунхаус на 4 семьи
 project-catalog-title: Квадрохаус
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "104"
+
+related:
+- KP-70
+- KB-73
+- TP-116
 
 params:
 - name: "Площадь дома:"

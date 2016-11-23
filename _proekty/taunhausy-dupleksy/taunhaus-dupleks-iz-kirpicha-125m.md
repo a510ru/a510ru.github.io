@@ -5,7 +5,7 @@ description: Типовой проект таунхауса (дуплекса) �
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 260
 
 project-title: Таунхаус из кирпича
 project-catalog-title: Таунхаус-дуплекс
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "125"
+
+related:
+- TD-106
+- TP-100
+- TP-210
 
 params:
 - name: "Площадь дома:"

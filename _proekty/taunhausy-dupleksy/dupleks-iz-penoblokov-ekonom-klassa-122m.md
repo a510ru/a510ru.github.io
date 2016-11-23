@@ -5,7 +5,7 @@ description: Типовой проект таунхауса (дуплекса) �
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 240
 
 project-title: Дуплекс эконом класса
 project-catalog-title: Недорогой дуплекс
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "122"
+
+related:
+- TP-100
+- TD-128
+- TD-79
 
 params:
 - name: "Площадь дома:"

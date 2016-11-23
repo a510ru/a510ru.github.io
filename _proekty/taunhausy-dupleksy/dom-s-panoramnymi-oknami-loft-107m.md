@@ -5,7 +5,7 @@ description: Типовой проект дуплекса (дома на две 
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 180
 
 project-title: Дом на две семьи с панорамными окнами
 project-catalog-title: Современный дуплекс
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "107"
+
+related:
+- TP-116
+- TD-123
+- TD-106
 
 params:
 - name: "Площадь дома:"

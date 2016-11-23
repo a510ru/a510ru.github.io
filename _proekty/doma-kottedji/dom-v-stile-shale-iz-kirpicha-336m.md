@@ -5,7 +5,7 @@ description: Типовой проект дома (коттеджа) в стил
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 290
 
 project-title: Дом в стиле шале с мансардой
 project-catalog-title: Альпийский коттедж
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "336"
+
+related:
+- DP-265
+- DP-438
+- DP-250
 
 params:
 - name: "Площадь дома:"

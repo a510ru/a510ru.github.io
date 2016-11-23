@@ -5,7 +5,7 @@ description: Готовый проект дуплекса (дома с двум�
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 100
 
 project-title: Дом с двумя входами на две семьи
 project-catalog-title: Удобный дуплекс
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "128"
+
+related:
+- TD-106
+- TD-79
+- TP-100
 
 params:
 - name: "Площадь дома:"

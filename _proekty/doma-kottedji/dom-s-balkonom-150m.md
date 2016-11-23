@@ -5,7 +5,7 @@ description: Готовый проект дома (коттеджа) с балк
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 110
 
 project-title: Коттедж с балконом
 project-catalog-title: Современный дом
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "150"
+
+related:
+- DK-130
+- TD-123
+- DK-191
 
 params:
 - name: "Площадь дома:"

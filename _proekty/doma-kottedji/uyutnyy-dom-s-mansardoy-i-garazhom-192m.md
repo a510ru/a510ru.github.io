@@ -5,7 +5,7 @@ description: Готовый проект уютного дома (коттедж
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 130
 
 project-title: Уютный дом с мансардой и гаражом
 project-catalog-title: Загородный дом
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "192"
+
+related:
+- DK-191
+- DK-213
+- DK-193
 
 params:
 - name: "Площадь дома:"

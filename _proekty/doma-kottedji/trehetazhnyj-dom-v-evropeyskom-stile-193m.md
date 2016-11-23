@@ -5,7 +5,7 @@ description: Готовый оригинальный проект трехэта
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 150
 
 project-title: Трехэтажный дом в европейском стиле
 project-catalog-title: Трехэтажный дом
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "193"
+
+related:
+- DK-192
+- DK-191
+- TD-180
 
 params:
 - name: "Площадь дома:"

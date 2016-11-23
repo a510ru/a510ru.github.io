@@ -5,7 +5,7 @@ description: Готовый проект трехэтажного таунхау
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 200
 
 project-title: Трехэтажный таунхаус
 project-catalog-title: Трехэтажный дуплекс
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "180"
+
+related:
+- DK-193
+- TD-128
+- TP-290
 
 params:
 - name: "Площадь дома:"

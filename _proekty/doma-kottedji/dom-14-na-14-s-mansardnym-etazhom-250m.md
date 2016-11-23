@@ -5,7 +5,7 @@ description: Типовой проект двухэтажного дома (ко
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 210
 
 project-title: Двухэтажный дом с мансардой
 project-catalog-title: Двухэтажный дом
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "250"
+
+related:
+- DK-213
+- DK-191
+- DK-192
 
 params:
 - name: "Площадь дома:"

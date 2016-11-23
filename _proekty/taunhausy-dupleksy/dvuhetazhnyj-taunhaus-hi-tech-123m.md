@@ -6,6 +6,7 @@ layout: project
 permalink: /proekty/:path
 
 featured: 1
+weight: 40
 
 project-title: Двухэтажный таунхаус с плоской крышей
 project-catalog-title: Современный дуплекс
@@ -18,6 +19,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "123"
+
+related:
+- TP-116
+- TP-107
+- TD-75
 
 params:
 - name: "Площадь дома:"

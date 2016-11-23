@@ -5,7 +5,7 @@ description: Готовый проект двухэтажного дома (ко
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 90
 
 project-title: Двухэтажный дом с гаражом
 project-catalog-title: Двухэтажный дом
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "213"
+
+related:
+- DK-191
+- DK-192
+- DP-250
 
 params:
 - name: "Площадь дома:"

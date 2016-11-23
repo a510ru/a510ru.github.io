@@ -5,7 +5,7 @@ description: Типовой проект таунхауса (дуплекса) �
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 280
 
 project-title: Таунхаус с гаражом
 project-catalog-title: Трехэтажный дуплекс
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "185"
+
+related:
+- TP-125
+- TP-210
+- TD-180
 
 params:
 - name: "Площадь дома:"

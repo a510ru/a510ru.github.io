@@ -5,7 +5,7 @@ description: Типовой проект дома (коттеджа) с трем
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 190
 
 project-title: Коттедж с тремя спальнями
 project-catalog-title: Дом с мансардой
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "172"
+
+related:
+- DK-192
+- DK-191
+- DK-213
 
 params:
 - name: "Площадь дома:"

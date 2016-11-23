@@ -6,6 +6,7 @@ layout: project
 permalink: /proekty/:path
 
 featured: 1
+weight: 30
 
 project-title: Современный двухэтажный дом
 project-catalog-title: Двухэтажный дом
@@ -18,6 +19,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "191"
+
+related:
+- DK-213
+- DK-192
+- TD-123
 
 params:
 - name: "Площадь дома:"

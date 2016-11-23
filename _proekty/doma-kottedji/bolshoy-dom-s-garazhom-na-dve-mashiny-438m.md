@@ -5,7 +5,7 @@ description: Готовый проект большого дома (коттед
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 170
 
 project-title: Большой дом с эркером
 project-catalog-title: Двухэтажный дом
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "438"
+
+related:
+- DP-336
+- DK-191
+- DP-504
 
 params:
 - name: "Площадь дома:"

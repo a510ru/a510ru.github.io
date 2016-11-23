@@ -5,7 +5,7 @@ description: Типовой проект дуплекса (дома на две 
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 120
 
 project-title: Дуплекс в стиле минимализм
 project-catalog-title: Современный дуплекс
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "116"
+
+related:
+- TP-107
+- TD-123
+- TP-100
 
 params:
 - name: "Площадь дома:"

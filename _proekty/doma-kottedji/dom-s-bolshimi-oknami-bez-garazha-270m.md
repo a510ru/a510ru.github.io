@@ -5,7 +5,7 @@ description: Типовой проект английского дома (кот
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+weight: 270
 
 project-title: Дом с большими окнами без гаража
 project-catalog-title: Двухэтажный дом
@@ -18,6 +18,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "270"
+
+related:
+- DK-213
+- DP-250
+- DK-191
 
 params:
 - name: "Площадь дома:"

@@ -6,6 +6,7 @@ layout: project
 permalink: /proekty/:path
 
 featured: 1
+weight: 10
 
 project-title: Маленький недорогой дом
 project-catalog-title: Недорогой коттедж
@@ -21,8 +22,8 @@ area: "100"
 
 related:
 - DK-120
-- DP-172
-- DK-191
+- TP-100
+- DK-130
 
 params:
 - name: "Площадь дома:"

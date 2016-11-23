@@ -6,6 +6,7 @@ layout: project
 permalink: /proekty/:path
 
 featured: 1
+weight: 60
 
 project-title: Современный таунхаус
 project-catalog-title: Современный дуплекс
@@ -18,6 +19,11 @@ price-project: "60 000 р"
 price-build: "5 540 000 р"
 
 area: "75"
+
+related:
+- TD-79
+- TD-123
+- TP-116
 
 params:
 - name: "Площадь дома:"
