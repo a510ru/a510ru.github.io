@@ -7,7 +7,7 @@ permalink: /portfolio/:path
 
 weight: 10
 featured: 1
-project-title: Индивидуальный дом в стиле Лофт
+project-title: Индивидуальный дом в стиле лофт
 
 short-description: NET OPISANIYA!!!
 
