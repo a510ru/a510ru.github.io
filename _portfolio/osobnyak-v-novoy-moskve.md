@@ -5,7 +5,7 @@ description: Индивидуальный проект особняка в Но�
 layout: port-project
 permalink: /portfolio/:path
 weight: 140
-project-title: Особняк в Новой Москве
+project-title: Особняк в Новой Москве
 
 short-description: NET OPISANIYA!!!
 

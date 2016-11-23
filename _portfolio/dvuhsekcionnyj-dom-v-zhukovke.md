@@ -5,7 +5,7 @@ description: Индивидуальный проект двухсекционн�
 layout: port-project
 permalink: /portfolio/:path
 weight: 120
-project-title: Двухсекционный дом в Жуковке
+project-title: Двухсекционный дом в Жуковке
 
 short-description: NET OPISANIYA!!!
 

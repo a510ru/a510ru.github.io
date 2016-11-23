@@ -5,7 +5,7 @@ description: Индивидуальный проект классической 
 layout: port-project
 permalink: /portfolio/:path
 weight: 180
-project-title: Классическая усадьба в Тверской губернии
+project-title: Классическая усадьба в Тверской губернии
 
 short-description: NET OPISANIYA!!!
 

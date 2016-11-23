@@ -5,7 +5,7 @@ description: Индивидуальный проект банного компл
 layout: port-project
 permalink: /portfolio/:path
 weight: 170
-project-title: Банный комплекс в Подмосковье
+project-title: Банный комплекс в Подмосковье
 
 short-description: NET OPISANIYA!!!
 

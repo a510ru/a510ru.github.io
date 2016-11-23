@@ -5,7 +5,7 @@ description: Архитектурная концепция детского ко
 layout: port-project
 permalink: /portfolio/:path
 weight: 90
-project-title: Детский корпус больницы
+project-title: Детский корпус больницы
 
 short-description: NET OPISANIYA!!!
 
