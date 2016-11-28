@@ -16,7 +16,7 @@ tiny-description: Маленький таунхаус в современном 
 short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
 
 price-project: "60 000 р"
-price-build: "5 540 000 р"
+price-build:
 
 area: "75"
 
@@ -26,26 +26,26 @@ related:
 - TP-116
 
 params:
-- name: "Площадь дома:"
-  value: "191м<sup>2</sup>"
+- name: "Площадь секции:"
+  value: "75м<sup>2</sup>"
 - name: "Площадь 1-го этажа:"
-  value: "99м<sup>2</sup>"
+  value: "44м<sup>2</sup>"
 - name: "Площадь 2-го этажа:"
-  value: "92м<sup>2</sup>"
-- name: "Крыльцо и терраса"
-  value: "28м<sup>2</sup>"
+  value: "31м<sup>2</sup>"
+- name: "Крыльцо и т.д."
+  value: "20м<sup>2</sup>"
 - name: "Габаритные размеры"
-  value: "16.0 x 16.3м"
+  value: "7.0 x 13.0м"
 - name: "Спальни"
-  value: "4"
+  value: "2"
 - name: "Санузлы"
-  value: "3"
+  value: "2"
 - name: "Высота 1-го этажа"
-  value: "3.0м"
+  value: "2.8м"
 - name: "Высота 2-го этажа"
-  value: "2.7м"
+  value: "от 1.8м"
 - name: "Фундамент"
-  value: "Ленточный ж/б"
+  value: "Сборный ж/б"
 - name: "Конструкция стен"
   value: "Газобетон 400мм"
 - name: "Перекрытия"
@@ -55,34 +55,23 @@ params:
 - name: "Облицовка стен"
   value: "Штукатурка, термососна"
 
-
 options:
-- name: "Зеркальный проект"
-  value: "5 000 р."
 - name: "Паспорт дома"
-  value: "5 000 р."
+  value: "5 000 р"
 - name: "Проекты коммуникаций (ОВиК)"
-  value: "30 000 р."
+  value: "30 000 р"
 - name: "Схема электрики"
-  value: "20 000 р."
+  value: "20 000 р"
 - name: "Проект подвала"
-  value: "30 000 р."
-- name: "Замена навеса на гараж"
-  value: "15 000 р."
-- name: "Этаж над гаражом"
-  value: "15 000 р."
+  value: "30 000 р"
 - name: "Замена материала стен"
-  value: "20 000 р."
+  value: "20 000 р"
 - name: "Изменение фундамента"
-  value: "15 000 р."
+  value: "15 000 р"
 - name: "Перепланировка (перегородки)"
-  value: "5 000 р."
+  value: "5 000 р"
 - name: "Дизайн интерьера"
-  value: "120 000 р."
-- name: "Стройка (с отделкой)"
-  value: "5 540 000 р."
-
-  
+  value: "120 000 р"
 ---
 
 Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.

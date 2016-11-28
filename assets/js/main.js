@@ -31,7 +31,7 @@
 		skel.viewport({
 			breakpoints: {
 				small: {
-					scalable: false
+					scalable: true
 				}
 			}
 		});
