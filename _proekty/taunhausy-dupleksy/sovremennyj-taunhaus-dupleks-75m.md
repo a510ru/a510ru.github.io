@@ -4,6 +4,7 @@ description: Готовый проект современного таунхау
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /taunhaus_dupleks_75m2.html
 
 featured: 1
 weight: 60

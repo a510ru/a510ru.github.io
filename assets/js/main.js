@@ -213,14 +213,14 @@
 				var form = $(this);
 				$.ajax({
 					dataType: "jsonp",
-					url: "https://getsimpleform.com/messages/ajax?form_api_token=6155e5a53e9a2468cc242519b0569ead",
+					url: "https://getsimpleform.com/messages/ajax?form_api_token=0b144f9c0b9d040d7b6278f3b2c6d00e",
 					data: form.serialize()
 						}).done(function(data) {
 							$(".ajax-form").hide();
 							$(".form-succes").fadeIn("400");
-							// yaCounter21957292.reachGoal('order');
-							// ga('send', 'event', 'form', 'order');
-							// fbq('track', 'Lead');
+							yaCounter24649415.reachGoal('lead');
+							ga('send', 'event', 'form', 'lead');
+							fbq('track', 'Lead');
 						}).fail(function(data) {
 							$(".ajax-form").hide();
 							$(".form-error").fadeIn("400");

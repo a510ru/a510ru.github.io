@@ -4,6 +4,7 @@ description: Готовый проект небольшого дома (котт
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /tipovoy_dom_120m2.html
 
 featured: 1
 weight: 50

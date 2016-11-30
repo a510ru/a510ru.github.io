@@ -4,6 +4,7 @@ description: Готовый проект четырехсекционного б
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /blokirovanniy_dom_kvadrohaus_73m2.html
 
 weight: 500
 
