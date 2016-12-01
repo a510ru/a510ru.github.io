@@ -9,9 +9,6 @@ type: category
 
 page-title: Проекты квадрохаусов, блокированных домов
 page-short-title: Квадрохаусы
-page-description: Квадрохаусы Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
+page-description: Четырехсекционный жилой дом будет удобен для очень большой семьи, но также может стать очень комфортным элементом коттеджного поселка или частного сектора в городе. Мы предлагаем вам несколько готовых проектов блокированных домов на 4 семьи.
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								
+Квадрохаус - это таунхаус "4 в 1", единое здание, рассчитанное на 4 семьи. От обычного четырехквартирного дома блокированный жилой дом отличается отдельными входами для каждой семьи и наличием прилагающегося земельного участка к каждой секции. "Квартира" в таком доме, как правило, имеет несколько этажей - в зависимости от проекта. На этой странице собраны уже готовые проекты квадрохаусов, разработанные нашими архитекторами. Если вы хотите, чтобы мы разработали для вас лично что-то новое - просто сообщите об этом нам, мы обязательно что-нибудь придумаем.

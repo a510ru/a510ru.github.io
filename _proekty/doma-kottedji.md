@@ -9,7 +9,7 @@ type: category
 
 page-title: Проекты домов и коттеджей
 page-short-title: Дома и коттеджи
-page-description: Дома и коттеджи Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
+page-description: "Дом за городом - не такая уж невыполнимая мечта, как кажется на первый взгляд. Специально для вас мы разработали проекты частных домов в совершенно разной стилистике: от классики до ультрамодного лофта. Выберите то, что вам ближе по духу, - и начинайте строить ваш дом."
 
 ---
 
