@@ -4,6 +4,7 @@ description: Готовый проект трехэтажного таунхау
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /taunhaus_dupleks_180m2.html
 
 weight: 200
 
@@ -12,7 +13,7 @@ project-catalog-title: Трехэтажный дуплекс
 project-name: TD-180
 tiny-description: Красивый дуплекс с удобной планировкой
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Трехэтажный таунхаус с ярким и необычным экстерьером станет «изюминкой» вашего участка. Крестообразная форма внутреннего пространства делает планировку дома рациональной и интересной. Вместительная кухня плавно переходит в помещения гостиной и столовой, из которой попадаете на открытую террасу. Веранда может стать прекрасным зимним садом с вашими любимыми растениями, которые будут радовать красотой и теплом."
 
 price-project: "60 000 р"
 price-build:
@@ -74,7 +75,3 @@ options:
 - name: "Дизайн интерьера"
   value: "120 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

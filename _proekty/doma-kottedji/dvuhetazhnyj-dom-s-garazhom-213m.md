@@ -12,7 +12,7 @@ project-catalog-title: Двухэтажный дом
 project-name: DK-213
 tiny-description: Красивый дом с удобной планировкой
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Двухэтажный кирпичный дом с гаражом подойдет для большой семьи. Такой встроенный гараж позволит сэкономить на строительных материалах и без проблем подключить его к отоплению. Выделение отдельных помещений под бойлерную и постирочную поможет разгрузить остальные комнаты. Грамотно решены переходы между зонами дома. Совмещенные пространства кухни и гостиной прекрасно дополняет крытая терраса, с которой можно любоваться видом на сад. Кованые перила украшают парадное крыльцо и террасу за домом."
 
 price-project: "60 000 р"
 price-build:
@@ -75,7 +75,3 @@ options:
   value: "150 000 р"
   
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

@@ -4,6 +4,7 @@ description: Типовой проект таунхауса (дуплекса) �
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /taunhaus_dupleks_122m2.html
 
 weight: 240
 
@@ -12,7 +13,7 @@ project-catalog-title: Недорогой дуплекс
 project-name: TP-122
 tiny-description: Дуплекс с мансардой эконом класса
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Простой, без лишних нагромождений дуплекс эконом-класса. Входная группа с крытым крыльцом обрамлена строгими колоннами и приглашает гостей пройти в дом. Таунхаус позволяет реализовать ваши идеи по использованию помещений. Он имеет пять жилых комнат, которые могут стать кабинетом, игровой комнатой или тренажерным залом."
 
 price-project: "60 000 р"
 price-build:
@@ -72,7 +73,3 @@ options:
 - name: "Дизайн интерьера"
   value: "120 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

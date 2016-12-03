@@ -12,7 +12,7 @@ project-catalog-title: Альпийский коттедж
 project-name: DP-336
 tiny-description: Красивый дом в стиле шале
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Очарование коттеджа в стиле шале не оставит равнодушным. Проект предлагает оформить поручни на крыльце, террасе и балконе оригинальными коваными или резными ограждениями, что создает шарм и неповторимость этого дома. «Гостеприимный» коттедж позволит расположить ваших близких в спальне на первом этаже с оборудованным санузлом. А четыре спальни и кабинет делают дом комфортным для жизни большой семьи."
 
 price-project: "60 000 р"
 price-build:
@@ -74,7 +74,3 @@ options:
 - name: "Дизайн интерьера"
   value: "150 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

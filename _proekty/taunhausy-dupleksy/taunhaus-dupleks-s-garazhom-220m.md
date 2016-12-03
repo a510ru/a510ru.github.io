@@ -4,6 +4,7 @@ description: Типовой проект таунхауса (дуплекса) �
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /taunhaus_dupleks_220m2.html
 
 weight: 320
 
@@ -12,7 +13,7 @@ project-catalog-title: Большой дуплекс
 project-name: TP-220
 tiny-description: Таунхаус для большой семьи
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Элегантный таунхаус с гаражом выполнен в классическом стиле. Сложный силуэт привлекает внимание. Изящные кованые узоры украшают ограждения, подчеркивая красоту и сдержанность дома."
 
 price-project: "60 000 р"
 price-build:
@@ -72,7 +73,3 @@ options:
 - name: "Дизайн интерьера"
   value: "120 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

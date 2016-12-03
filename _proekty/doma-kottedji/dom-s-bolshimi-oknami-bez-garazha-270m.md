@@ -12,7 +12,7 @@ project-catalog-title: Двухэтажный дом
 project-name: DP-270
 tiny-description: Большой дом в английском стиле
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Английский домик без гаража и с четырьмя спальнями имеет прямоугольную планировку, что позволяет создать максимально рациональные пространства. Кирпичные стены будут хранить тепло в холодное время года, а окна, выходящие на все стороны, создадут естественную вентиляцию целого дома. Большие окна обеспечат необходимый уровень инсоляции в течение всего года, что важно для вашего здоровья. Просторная гостиная-столовая пространственно разделена на три зоны, в которых можно собирать большую дружную компанию на ужин, отдыхать и веселиться."
 
 price-project: "60 000 р"
 price-build:
@@ -73,8 +73,4 @@ options:
   value: "5 000 р"
 - name: "Дизайн интерьера"
   value: "150 000 р"
----
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								
+---					

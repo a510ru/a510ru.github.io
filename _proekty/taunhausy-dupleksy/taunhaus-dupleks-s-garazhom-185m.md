@@ -12,7 +12,7 @@ project-catalog-title: Трехэтажный дуплекс
 project-name: TP-185
 tiny-description: Комфортный таунхаус с гаражом
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Таунхаус с гаражом отлично подойдет для семьи из нескольких поколений. Если есть желание жить вместе с родителями или внуками, но при этом не мешать друг другу, то этот проект для вас! Пространства секций небольшие, но вмещают несколько просторных жилых комнат, где можно разместить все, что пожелаете!"
 
 price-project: "60 000 р"
 price-build:
@@ -75,8 +75,4 @@ options:
   value: "5 000 р"
 - name: "Дизайн интерьера"
   value: "120 000 р"
----
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								
+---		

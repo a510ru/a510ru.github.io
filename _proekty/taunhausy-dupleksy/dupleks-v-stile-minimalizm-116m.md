@@ -4,6 +4,7 @@ description: Типовой проект дуплекса (дома на две 
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /taunhaus_dupleks_116m2.html
 
 weight: 120
 
@@ -12,7 +13,7 @@ project-catalog-title: Современный дуплекс
 project-name: TP-116
 tiny-description: Двухэтажный таунхаус в стиле минимализм
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Скандинавский стиль отличается простыми и красивыми формами, комфортабелен и уютен. Термопанели из светлой древесины на фоне темных фасадов создают контраст, который позволит дому выделиться на общем фоне природы. Минимализм дуплекса прослеживается и в планировке – все внутреннее пространство используется с максимальной пользой. Окна больших размеров обрамляют светлые и уютные спальни, из которых можно любоваться садом."
 
 price-project: "60 000 р"
 price-build:
@@ -72,7 +73,3 @@ options:
 - name: "Дизайн интерьера"
   value: "120 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

@@ -14,7 +14,7 @@ project-catalog-title: Недорогой коттедж
 project-name: DK-100
 tiny-description: Небольшой дом с навесом
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Уютный домик со скатной крышей прекрасно подойдет для небольшой семьи с детьми. Это экономный вариант для узкого или небольшого участка. Может быть выполнен в двух вариантах – с навесом для машины или без него. Его ширина без парковки составляет лишь 6,8 метров! Этот маленький дом из пеноблоков облицован штукатуркой и камнем. Его компактная планировка вмещает все необходимые помещения для Вашего комфорта. А кухня, совмещенная с гостиной это большое пространство, где будет собираться вся семья."
 
 price-project: "60 000 р"
 price-build:
@@ -80,7 +80,3 @@ options:
 
   
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

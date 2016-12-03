@@ -13,7 +13,7 @@ project-catalog-title: Дом с мансардой
 project-name: DK-130
 tiny-description: Современный коттедж с четырьмя спальнями
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Одноэтажный дом с мансардой общей площадью 130 м<sup>2</sup> из газобетона, оштукатурен и облицован каменной кладкой. Здесь есть несколько спален и вместительная гостиная на первом этаже. Она совмещена с кухней-столовой и имеет выход на крыльцо. Окна мансардного этажа выходят на улицу перед домом и на задний дворик."
 
 price-project: "60 000 р"
 price-build:
@@ -75,8 +75,4 @@ options:
 - name: "Дизайн интерьера"
   value: "120 000 р"
   
----
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								
+---		

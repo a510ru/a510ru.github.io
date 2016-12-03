@@ -6,51 +6,54 @@ permalink: /404.html
 
 page-title: Ошибка 404
 ---
-						<div class="row">
-							<div class="6u 12u(small)">
-								<section>
-									<header>
-										<h3>Компания А510</h3>
-									</header>
-									<ul class="alt">
-										<li><i class="fa fa-phone">&nbsp;</i><a href="tel:+7(495)532-70-54"><span itemprop="telephone">+7&nbsp;(495)&nbsp;532-70-54</span></a></li>
-										<li><i class="fa fa-envelope-o">&nbsp;</i><a href="mailto:info@a510.ru"><span itemprop="email">info@a510.ru</span></a></li>
-										<li><div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><i class="fa fa-map-marker">&nbsp;</i><span itemprop="postalCode">142190</span> <span itemprop="addressLocality">Москва, Троицк</span>, <span itemprop="streetAddress">Физическая 13, оф. 77</span></div></li>
-										<li><i class="fa fa-clock-o">&nbsp;</i><data itemprop="openingHours" value="Mo-Fri 10:00−20:00"> Пн-Пт, 10:00-20:00.</data></li>
-									</ul>
-								</section>
+<h3 class="align-center">К сожалению, страница, которую вы искали, не существует.</h3>
+<h4 class="align-center">Может быть посмотрите наши готовые проекты домов и таунхаусов?</h4>
+<section class="front">
+	<header class="align-center">
+		<h2>Готовые проекты</h2>
+	</header>
+	<div class="row">
+		<div class="8u 12u(medium)">
+			<p>Вы готовы начать строить дом уже завтра, но все еще не нашли подходящий проект - тут мы придем вам на помощь. Проекты всех домов на этой странице уже готовы, вам остается только выбрать созвучный вашим вкусам и свзяаться с нами для уточнения некоторых деталей.</p>
+		</div>
+		<div class="4u 12u(medium)">
+			<ul class="actions vertical small align-left arrow-alt">
+				<li><a href="/proekty/doma-kottedji/">Дома и коттеджи</a></li>
+				<li><a href="/proekty/taunhausy-dupleksy/">Таунхаусы - дуплексы</a></li>
+				<li><a href="/proekty/kvadrohausy/">Квадрохаусы</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row uniform">
+		{% assign sorted_cat = site.proekty | sort: 'weight' %}
+		{% assign i = 0 %}
+		{% for project in sorted_cat %}
+			{% if project.type != "category" and project.featured %}
+				{% assign i = i | plus: 1 %}
+				{% if i > 6 %}
+					{% break %}
+				{% endif %}
+				<div class="4u 6u(medium) 12u(xsmall)">
+					<div class="box alt">
+						<a href="{{project.url}}" class="image fit project">
+							<img src="/images/{{project.url}}-1-small.jpg" alt="{{project.tiny-description}}" title="{{project.project-catalog-title}}">
+							<div class="project-wrapper">
+								<h3>{{project.project-catalog-title}} <span>{{project.project-name}}</span></h3>
+								<p>{{project.tiny-description}}</p>
 							</div>
-							<div class="6u 12u(small)">
-								<section>
-									<header>
-										<h3>Написать нам</h3>
-									</header>
-									<form action="#" class="ajax-form">
-										<div class="row uniform 50%">
-											<div class="6u 12u(small)">
-												<input type="text" class="name" name="name" placeholder="Ваше имя*" required>
-											</div>
-											<div class="6u$ 12u(small)">
-												<input type="email" class="email" name="email" placeholder="Е-mail*" required>
-											</div>
-											<div class="12u$">
-												<textarea rows="3" name="message" class="message" placeholder="Ваше сообщение*" required></textarea>
-											</div>
-											<div class="12u$">
-												<ul class="actions">
-													<li><input type="submit" class="submit button fit" value="Отправить"></li>
-												</ul>
-											</div>
-										</div>
-									</form>
-									<div class="form-succes" style="display:none;">
-										 <h3>Спасибо!</h3>
-										 <p>Мы свяжемся с Вами в самое ближайшее время!</p>
-									</div>
-									<div class="form-error" style="display:none;">
-										 <h3>Ой!</h3>
-										 <p>Что-то пошло не так. Попробуйте отправить заказ чуть позже или просто позвоните нам.</p>
-									</div>
-								</section>
-							</div>
-						</div>
+						</a>
+						<h4><a href="{{project.url}}">{{project.project-name}}</a></h4>
+						{% if project.area %}
+						<h4 class="area">{{project.area}}м<sup>2</sup></h4>
+						{% endif %}
+					</div>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+	<footer class="align-center">
+		<ul class="actions">
+			<li><a class="button" href="/proekty/">Смотреть все проекты</a></li>
+		</ul>
+	</footer>
+</section>

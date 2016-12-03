@@ -13,7 +13,7 @@ project-catalog-title: Красивый дуплекс
 project-name: TD-106
 tiny-description: Небольшой таунхаус в английском стиле
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Красивый таунхаус с площадью секции 106 м<sup>2</sup>, площадь которого соответствует трехкомнатной квартире. Экономный вариант для тех, кто любит природу, но нуждается в обществе людей со схожими социальным статусом и взглядами на жизнь. Крытая терраса выходит на задний дворик и подарит вам прекрасные летние вечера, а при отличной погоде там можно собраться всей семьей или пригласить друзей."
 
 price-project: "60 000 р"
 price-build:
@@ -73,7 +73,3 @@ options:
 - name: "Дизайн интерьера"
   value: "120 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

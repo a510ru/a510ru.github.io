@@ -12,7 +12,7 @@ project-catalog-title: Большой дуплекс
 project-name: TP-290
 tiny-description: Просторный таунхаус с гаражом
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Потрескивание дров, яркое пламя и уют – камин создаст романтическое настроение и позволит остаться наедине с самим собой. Просторный таунхаус на две семьи с гаражом. Классический многоскатный дом, в котором эркеры симметрично обрамляют его с двух сторон, наполняя помещения светом и торжественностью. Спальни удобно примыкают к гардеробным, а они в свою очередь переходят в ванную комнату."
 
 price-project: "60 000 р"
 price-build:
@@ -72,7 +72,3 @@ options:
 - name: "Дизайн интерьера"
   value: "120 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

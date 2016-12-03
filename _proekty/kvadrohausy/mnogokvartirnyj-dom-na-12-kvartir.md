@@ -13,7 +13,7 @@ project-catalog-title: Трехэтажный дом
 project-name: MK-312
 tiny-description: Современный трехэтажный дом на 12 квартир
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Ученые установили, что человеку гораздо комфортнее среди невысоких строений, чем в «скворечниках». Трехэтажный дом на 12 квартир, из которых 6 двухкомнатных и 6 однокомнатных, это прекрасная альтернатива городскому многоквартирному жилью. Он выглядит уютно и привлекательно. Панорамное остекление в полной мере освещает помещения и дарит тепло. Для Вашей безопасности окна оборудованы перилами. Вход в подъезд оформлен контрастным белым цветом на темном фоне фасада."
 
 price-project: "120 000 р"
 price-build:
@@ -66,7 +66,3 @@ options:
 - name: "Дизайн интерьера"
   value: "150 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

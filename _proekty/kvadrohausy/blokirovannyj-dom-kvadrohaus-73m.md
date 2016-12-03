@@ -13,7 +13,7 @@ project-catalog-title: Квадрохаус
 project-name: KB-73
 tiny-description: Красивый четырехсекционный дом
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Строгий и сдержанный дом на четыре семьи. Планировка компактна – из прихожей вы попадаете в небольшую кухню-гостиную, которая ведет на крытую террасу. Она может стать прекрасным местом для летнего отдыха."
 
 price-project: "80 000 р"
 price-build:
@@ -78,8 +78,4 @@ options:
   value: "5 000 р"
 - name: "Дизайн интерьера"
   value: "120 000 р"
----
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								
+---				

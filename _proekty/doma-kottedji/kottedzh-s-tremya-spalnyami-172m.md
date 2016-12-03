@@ -12,7 +12,7 @@ project-catalog-title: Дом с мансардой
 project-name: DP-172
 tiny-description: Простой и функциональный дом
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Очень компактный кирпичный дом может быть облицован термопанелью любого цвета на Ваш вкус. Фасад дома выполнен в одной цветовой гамме, что подчеркивает лаконичность его формы. А гараж на первом этаже делает хранение автомобиля комфортным и безопасным. В коттедже есть три спальни и три санузла. Кухня образует единое пространство с гостиной для максимально большой общей зоны на первом этаже. Кладовая под лестницей позволит навести порядок в доме и разгрузит некоторые помещения."
 
 price-project: "60 000 р"
 price-build:
@@ -75,7 +75,3 @@ options:
   value: "120 000 р"
   
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

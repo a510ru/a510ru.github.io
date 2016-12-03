@@ -12,7 +12,7 @@ project-catalog-title: Удобный дуплекс
 project-name: TD-128
 tiny-description: Таунхаус с четырьмя спальнями и террасой
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Классический дом в бельгийском стиле с двумя входами выгодный вариант для тех, кто не любит уединенную жизнь за городом. Угловой руст на фасаде создает необычный и запоминающийся образ дуплекса. Фигурные фронтоны подчеркивают его характер в духе старой Европы. Основное пространство первого этажа традиционно занимают гостевые помещения. В едином пространстве этой комнаты выделяется диванная зона в эркере. Она плавно перетекает в кухню и столовую, из которой вы попадаете на открытую террасу."
 
 price-project: "60 000 р"
 price-build:
@@ -72,7 +72,3 @@ options:
 - name: "Дизайн интерьера"
   value: "120 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

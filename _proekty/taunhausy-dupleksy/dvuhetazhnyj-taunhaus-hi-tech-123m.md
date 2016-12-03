@@ -13,7 +13,7 @@ project-catalog-title: Современный дуплекс
 project-name: TD-123
 tiny-description: Ассиметричный таунхаус с отличной планировкой
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Строгая геометрия, прямые углы, минимализм во всем. Двухэтажный таунхаус состоит из 4-х спален, 3-х санузлов, кухни-гостиной. Общая площадь секции 123 м<sup>2</sup>. Философия хай-тека в том, чтобы разумно использовать свободное пространство. При таком подходе крыша станет отличной площадкой для сада или местом для отдыха под открытым небом. Стильный и эффектный дом смотрится современно и привлекает внимание. Хорошая, продуманная планировка, где нет ненужных и лишних пространств, подчеркивает брутальность таунхауса."
 
 price-project: "60 000 р"
 price-build:
@@ -75,7 +75,3 @@ options:
 - name: "Дизайн интерьера"
   value: "120 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

@@ -4,6 +4,7 @@ description: Готовый проект маленького таунхауса
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /taunhaus_dupleks_79m2.html
 
 weight: 80
 
@@ -12,7 +13,7 @@ project-catalog-title: Маленький дуплекс
 project-name: TD-79
 tiny-description: Красивый таунхаус с террасой
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Экономный вариант для практичных людей. Маленький таунхаус подойдет, если вы приобрели узкий и невместительный участок. Проектом предусмотрено все только самое необходимое. А в теплое время крытая терраса послужит вам прекрасным местом для отдыха и досуга. Дом для тех, кто ценит свое время и ресурсы."
 
 price-project: "60 000 р"
 price-build:
@@ -76,7 +77,3 @@ options:
 - name: "Дизайн интерьера"
   value: "120 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

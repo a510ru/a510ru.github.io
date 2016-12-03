@@ -4,6 +4,7 @@ description: Готовый проект таунхауса (дуплекса) �
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /taunhaus_dupleks_100m2.html
 
 weight: 140
 
@@ -12,7 +13,7 @@ project-catalog-title: Недорогой дуплекс
 project-name: TP-100
 tiny-description: Простой и экономичный таунхаус
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Мечтаете о качественном и недорогом жилье? Тогда таунхаус эконом-класса это то, что вам нужно! Стоимость такого дома в пригороде гораздо ниже квартиры, с аналогичной площадью и частного коттеджа. Естественное освещение лестничных маршей позволит экономить на электричестве. Если провести в доме собственное отопление, то можно еще больше сэкономить по сравнению с жильем в городе."
 
 price-project: "60 000 р"
 price-build:
@@ -76,7 +77,3 @@ options:
 - name: "Дизайн интерьера"
   value: "120 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

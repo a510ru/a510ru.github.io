@@ -12,7 +12,7 @@ project-catalog-title: Современный дуплекс
 project-name: TP-107
 tiny-description: Двухэтажный таунхаус в стиле лофт
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Хотите жить в экологически чистом месте?  Дом с панорамными окнами станет уютным и светлым жильем для вас. Проект предлагает таунхаус в стиле лофт. Лофт – это прямолинейность минимализма и естественность. Тренд, охвативший всех, кто оценил преимущества индустриального стиля. Интересен тем, что можно сочетать несовместимые на первый взгляд вещи. Большие витражи в жилых помещениях создадут солнечное настроение даже зимним морозным утром."
 
 price-project: "60 000 р"
 price-build:
@@ -72,7 +72,3 @@ options:
 - name: "Дизайн интерьера"
   value: "120 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

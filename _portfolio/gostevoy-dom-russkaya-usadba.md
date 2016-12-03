@@ -4,6 +4,8 @@ description: "Индивидуальный проект гостевого до�
 
 layout: port-project
 permalink: /portfolio/:path
+redirect_from: /individ_russkaya_usadba.html
+
 weight: 210
 project-title: "Гостевой дом в стиле &laquo;Русская усадьба&raquo;"
 

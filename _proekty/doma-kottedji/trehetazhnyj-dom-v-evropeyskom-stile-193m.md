@@ -12,7 +12,7 @@ project-catalog-title: Трехэтажный дом
 project-name: DK-193
 tiny-description: Необычный дом с навесом и террасой
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Дом в европейском стиле это четкие формы и лаконичность в деталях декора. Проект предусматривает простоту, но при этом функциональность возводимого здания. Оригинальный трехэтажный дом в европейском стиле с навесом для машины прекрасно подойдет для небольшого участка. Терраса разнообразит и сделает более комфортным досуг, а мансарда – это хороший способ увеличить жилую зону. Маленькая гостиная на первом этаже создает уютное пространство, плавно перетекающее в просторную кухню, а затем в столовую."
 
 price-project: "60 000 р"
 price-build:
@@ -83,7 +83,3 @@ options:
   value: "150 000 р"
   
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

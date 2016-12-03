@@ -14,7 +14,7 @@ project-catalog-title: Современный дуплекс
 project-name: TD-75
 tiny-description: Маленький таунхаус в современном стиле
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Современный дуплекс привлекает своим минимализмом и простотой. Грамотная планировка сочетает в себе большую общую зону из столовой, кухни, гостиной с выходом на террасу и две небольшие уютные спальни. Все эти помещения занимают 75 м<sup>2</sup>. Угловое остекление кухни создает легкий в чистке фартук и акцентирует внимание на этой зоне комнаты. А витражное остекление гостиной зрительно расширяет пространство, в котором можно устроить небольшой зимний сад. Он наполнит ваш дом теплом морозной зимой и чистым полезным воздухом круглый год."
 
 price-project: "60 000 р"
 price-build:
@@ -74,7 +74,3 @@ options:
 - name: "Дизайн интерьера"
   value: "120 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

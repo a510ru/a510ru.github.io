@@ -13,7 +13,7 @@ project-catalog-title: Двухэтажный дом
 project-name: DK-191
 tiny-description: Современный дом с отличной планировкой
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Лаконичный проект для практичных людей. Современный двухэтажный дом общей площадью 191 м<sup>2</sup> облицован штукатуркой и термососной. Навес над парковкой защитит ваш автомобиль от неприятных погодных условий, а небольшая крытая терраса позволит наслаждаться свежим воздухом в любую погоду. Это решение для семьи из нескольких поколений, так как в доме предусмотрен отдельный жилой блок на первом этаже со спальней и ванной комнатой. Кухня изолирована от столовой, поэтому гости, собираясь за праздничным столом, не будут видеть ваших приготовлений."
 
 price-project: "60 000 р"
 price-build:
@@ -80,8 +80,4 @@ options:
   value: "120 000 р"
 
   
----
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								
+---	

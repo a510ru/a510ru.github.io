@@ -12,7 +12,7 @@ project-catalog-title: Загородный дом
 project-name: DK-192
 tiny-description: Уютный коттедж с гаражом
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Рациональная планировка дома с мансардой и гаражом делает его удобным для жизни. Кухня и гостиная это два отдельных помещения. Гараж на одну машину расположен на первом этаже коттеджа, а на втором есть четыре комнаты, в которых может быть кабинет, игровая комната, мастерская, спальня – все, что пожелаете!"
 
 price-project: "60 000 р"
 price-build:
@@ -75,7 +75,3 @@ options:
   value: "150 000 р"
   
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

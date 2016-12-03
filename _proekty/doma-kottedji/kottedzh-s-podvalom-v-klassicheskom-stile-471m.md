@@ -12,7 +12,7 @@ project-catalog-title: Роскошный дом
 project-name: DP-471
 tiny-description: Загородный особняк в классическом стиле
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Гармония, изящность и простота – главные отличия этого коттеджа в классическом стиле. Светлые оттенки стен прекрасно дополняют его образ и подчеркивают лаконичность линий. Изящная лепнина, строгий руст и украшенные тонкой ковкой перила – все это дополняет общую картину особняка. Для тех, кто хочет подчеркнуть свой статус и уровень культуры. Крестообразный план дома и весь его образ навевает мысли о чистоте и хорошем вкусе. Просторная планировка продумана до мелочей. Подвальный этаж не уступает в этом основным пространствам дома. Здесь есть бытовые и технические помещения, среди которых даже поместиться сауна с раздевалками и большая комната отдыха. А правильно подобранный дизайн камина на первом этаже создаст еще более торжественный образ всего дома."
 
 price-project: "60 000 р"
 price-build:
@@ -76,7 +76,3 @@ options:
 - name: "Дизайн интерьера"
   value: "150 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

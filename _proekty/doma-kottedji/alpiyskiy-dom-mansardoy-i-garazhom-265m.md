@@ -12,7 +12,7 @@ project-catalog-title: Дом с мансардой
 project-name: DP-265
 tiny-description: Дом с отделкой в стиле фахверк
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Неповторимая уютная атмосфера и колорит дома в альпийском стиле рассчитаны на постоянное проживание в нем и отдых. Гостиная с эркером это возможность для реализации Ваших самых необычных и смелых идей. Эркер делает просторный зал нестандартным и солнечным. Большая спальня на втором этаже выходит на веранду, с которой можно наблюдать за прибывающими гостями. Общая площадь коттеджа 231 м<sup>2</sup>. Он возводится из кирпича, облицовывается штукатуркой и камнем."
 
 price-project: "60 000 р"
 price-build:
@@ -74,7 +74,3 @@ options:
 - name: "Дизайн интерьера"
   value: "150 000 р"
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

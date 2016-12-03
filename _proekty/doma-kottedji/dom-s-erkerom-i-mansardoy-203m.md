@@ -12,7 +12,7 @@ project-catalog-title: Двухэтажный коттедж
 project-name: DP-203
 tiny-description: Загородный дом с гаражом
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Дом с мансардой и эркером и площадью 178 м<sup>2</sup> подойдет для небольшой семьи. Интересно продуманы многогранные пространства: на первом этаже его занимает уютная гостиная с камином, а на втором – балкон, примыкающий к одной из просторных спален. Две спальни с балконом – явление редкое, но имеет неоспоримые преимущества. Именно в этих помещениях коттеджа так важно хорошее освещение и свежий воздух."
 
 price-project: "60 000 р"
 price-build:
@@ -77,7 +77,3 @@ options:
   value: "120 000 р"
   
 ---
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								

@@ -1,9 +1,10 @@
 ---
 title: Проект блокированного жилого дома в стиле лофт 70 м кв
-description: Готовый проект четырехсекционного блокированного жилого дома (квадрохауса) с удобной планировкойв стиле лофт. Площадь секции&#58; 730 м.кв.
+description: Готовый проект четырехсекционного блокированного жилого дома (квадрохауса) с удобной планировкойв стиле лофт. Площадь секции&#58; 70 м.кв.
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /blokirovanniy_dom_kvadrohaus_70m2.html
 
 weight: 520
 
@@ -12,7 +13,7 @@ project-catalog-title: Квадрохаус
 project-name: KP-70
 tiny-description: Небольшой блокированный дом в стиле лофт
 
-short-description: Современный двухэтажный дом с навесом для машины и террасой. Просторная гостиная позволит собраться всей семьей за праздничным столом, а после вкусного ужина выйти на террасу, завернуться в плед, пить горячий чай и любоваться красивым видом на сад.
+short-description: "Порой в индивидуальных огороженных коттеджах жители чувствуют себя более одинокими. Сблокированный четырехсекционный дом создаст чувство защищенности. Небольшое количество соседей повышает безопасность вашего жилья. Проектом предложен коттедж в современном стиле лофт с композиционными акцентами на входных группах."
 
 price-project: "80 000 р"
 price-build:
@@ -71,8 +72,4 @@ options:
   value: "5 000 р"
 - name: "Дизайн интерьера"
   value: "120 000 р"
----
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum. Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.
-
-Lorem, ipsum adipiscing quam malesuada odio integer lectus pharetra non odio proin vitae commodo mauris. At, quam, vivamus diam amet nam sapien sagittis tempus malesuada, quam, diam sagittis ipsum. Eget molestie congue eget auctor, vivamus metus enim tellus amet, quam commodo tellus ipsum.								
+---				
