@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /*.html
+Disallow: /test.html
 Host: a510.ru
 Sitemap: http://a510.ru/sitemap.xml
