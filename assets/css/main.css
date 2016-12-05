@@ -3350,6 +3350,10 @@
 		margin-bottom: 2em;
 	}
 	
+		.small-banner:before {
+			display:none;
+		}
+	
 	.banner-product {
 		margin-bottom: 2em;
 	}
