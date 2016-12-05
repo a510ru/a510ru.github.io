@@ -4,6 +4,7 @@ description: Типовой проект дома (коттеджа) с трем
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /tipovoy_dom_172m2.html
 
 weight: 190
 
