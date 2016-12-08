@@ -16,3 +16,10 @@ social:
     - https://plus.google.com/111533556890655071026
 
 logo: /images/logo2.svg
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: /images/banners/dupleksy.jpg
