@@ -63,6 +63,29 @@
 					</div>
 					<div class="row">
 						{{ content }}
+						<script type="application/ld+json">
+						{
+						  "@context": "http://schema.org/",
+						  "@type": "Review",
+						  "itemReviewed": {
+							"@type": "Thing",
+							"name": "{{page.page-title}}"
+						  },
+						  "author": {
+							"@type": "Organization",
+							"name": "Архитектурное бюро А510"
+						  },
+						  "reviewRating": {
+							"@type": "Rating",
+							"ratingValue": "4.9",
+							"bestRating": "5"
+						  },
+						  "publisher": {
+							"@type": "Organization",
+							"name": "Архитектурное бюро А510"
+						  }
+						}
+						</script>
 					</div>
 				</article>
 			</div>
