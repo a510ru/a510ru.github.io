@@ -6,7 +6,7 @@ layout: project
 permalink: /proekty/:path
 
 featured: 1
-weight: 30
+weight: 50
 
 project-title: Современный двухэтажный дом
 project-catalog-title: Двухэтажный дом

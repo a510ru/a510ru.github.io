@@ -7,7 +7,7 @@ permalink: /proekty/:path
 redirect_from: /tipovoy_dom_120m2.html
 
 featured: 1
-weight: 50
+weight: 30
 
 project-title: Небольшой дом с мансардой
 project-catalog-title: Небольшой коттедж
