@@ -5,7 +5,7 @@ description: Индивидуальный проект усадебного ко
 layout: port-project
 permalink: /portfolio/:path
 weight: 80
-featured: 1
+featured:
 project-title: Усадебный комплекс в Подмосковье
 
 short-description: "Усадебный комплекс состоит из нескольких зданий: вездная группа с башней, гараж, жилой дом и беседка.
