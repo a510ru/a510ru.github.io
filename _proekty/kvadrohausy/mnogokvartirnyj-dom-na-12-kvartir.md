@@ -4,7 +4,6 @@ description: Готовый проект трехэтажного дома на 
 
 layout: project
 permalink: /proekty/:path
-redirect_from: /mnogokvartir_3e12k.html
 
 weight: 530
 

@@ -4,7 +4,6 @@ description: Готовый проект недорогого маленьког
 
 layout: project
 permalink: /proekty/:path
-redirect_from: /tipovoy_dom_100m2.html
 
 featured: 1
 weight: 10

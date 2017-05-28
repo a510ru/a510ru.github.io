@@ -4,7 +4,6 @@ description: Готовый проект трехэтажного таунхау
 
 layout: project
 permalink: /proekty/:path
-redirect_from: /taunhaus_dupleks_180m2.html
 
 weight: 200
 

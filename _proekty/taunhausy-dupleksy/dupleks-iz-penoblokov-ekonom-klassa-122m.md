@@ -4,7 +4,6 @@ description: Типовой проект таунхауса (дуплекса) �
 
 layout: project
 permalink: /proekty/:path
-redirect_from: /taunhaus_dupleks_122m2.html
 
 weight: 240
 

@@ -4,7 +4,6 @@ description: Типовой проект дуплекса (дома на две 
 
 layout: project
 permalink: /proekty/:path
-redirect_from: /taunhaus_dupleks_116m2.html
 
 weight: 120
 

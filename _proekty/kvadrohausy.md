@@ -4,7 +4,6 @@ description: Проекты квадрохаусов (таунхаусов на 
 
 layout: category
 permalink: /proekty/:path/
-redirect_from: /mnogokvartirnie_doma.html
 
 type: category
 

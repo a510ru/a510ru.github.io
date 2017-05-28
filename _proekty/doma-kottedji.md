@@ -4,7 +4,6 @@ description: Каталог проектов кирпичных загородн
 
 layout: category
 permalink: /proekty/:path/
-redirect_from: /tipovie_proekti_kirpichnih_domov.html
 
 type: category
 

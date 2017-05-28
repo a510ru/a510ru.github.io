@@ -4,7 +4,6 @@ description: Готовый проект одноэтажного дома (ко
 
 layout: project
 permalink: /proekty/:path
-redirect_from: /tipovoy_dom_130m2.html
 
 weight: 70
 

@@ -4,7 +4,6 @@ description: Готовый проект маленького таунхауса
 
 layout: project
 permalink: /proekty/:path
-redirect_from: /taunhaus_dupleks_79m2.html
 
 weight: 80
 
