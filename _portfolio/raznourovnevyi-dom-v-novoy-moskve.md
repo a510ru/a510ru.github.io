@@ -5,7 +5,7 @@ description: Индивидуальный проект разноуровнев�
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 4
+weight: 3
 featured: 1
 project-title: Разноуровневый дом в Новой Москве
 
