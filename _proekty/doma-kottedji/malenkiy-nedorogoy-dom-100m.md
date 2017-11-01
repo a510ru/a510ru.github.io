@@ -6,7 +6,7 @@ layout: project
 permalink: /proekty/:path
 
 featured: 1
-weight: 10
+weight: 6
 
 project-title: Маленький недорогой дом
 project-catalog-title: Недорогой коттедж
