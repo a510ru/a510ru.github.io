@@ -5,7 +5,7 @@ description: Готовый проект таунхауса с разными п
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+featured:
 weight: 8
 
 project-title: Дуплекс с разными площадями
