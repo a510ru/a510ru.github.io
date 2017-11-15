@@ -1,4 +1,4 @@
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 
@@ -16,6 +16,8 @@ social:
     - https://plus.google.com/111533556890655071026
 
 logo: /images/logo2.svg
+
+title: ""
 
 defaults:
   -
