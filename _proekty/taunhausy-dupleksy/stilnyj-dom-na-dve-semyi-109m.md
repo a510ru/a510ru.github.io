@@ -27,7 +27,7 @@ related:
 - TD-75
 
 params:
-- name: "Площадь дома:"
+- name: "Площадь секции:"
   value: "109м<sup>2</sup>"
 - name: "Площадь 1-го этажа:"
   value: "57м<sup>2</sup>"
