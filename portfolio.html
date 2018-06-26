@@ -11,15 +11,38 @@ page-description: "Основная доля нашей работы - прое�
 <div class="row uniform">
 {% assign sorted_cat = site.portfolio | sort: 'weight' %}
 {% for project in sorted_cat %}
+	{% if forloop.index == 2 %}
+	<div class="4u 6u(medium) 12u(xsmall)">
+		<div class="box alt" style="border:0">
+			<a href="/istra" class="image fit project">
+				<img src="/images/portfolio/istra-01-small.jpg" alt="Редевелопмент коттеджного посёлка">
+				<div class="project-wrapper">
+					<h5>Редевелопмент коттеджного посёлка</h5>
+				</div>
+			</a>
+		</div>
+	</div>
 	<div class="4u 6u(medium) 12u(xsmall)">
 		<div class="box alt" style="border:0">
 			<a href="{{project.url}}" class="image fit project">
-				<img src="/images/{{project.url}}-1-small.jpg" alt="{{project.project-title}}">
+				<img src="/images/{{project.url}}-01-small.jpg" alt="{{project.project-title}}">
 				<div class="project-wrapper">
 					<h5>{{project.project-title}}</h5>
 				</div>
 			</a>
 		</div>
 	</div>
+	{% else %}
+	<div class="4u 6u(medium) 12u(xsmall)">
+		<div class="box alt" style="border:0">
+			<a href="{{project.url}}" class="image fit project">
+				<img src="/images/{{project.url}}-01-small.jpg" alt="{{project.project-title}}">
+				<div class="project-wrapper">
+					<h5>{{project.project-title}}</h5>
+				</div>
+			</a>
+		</div>
+	</div>
+	{% endif %}
 {% endfor %}
 </div>
