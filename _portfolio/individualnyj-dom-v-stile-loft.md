@@ -5,7 +5,7 @@ description: Индивидуальный проект дома в стиле л
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 10
+weight: 18
 featured: 1
 project-title: Индивидуальный дом в стиле лофт
 

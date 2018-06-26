@@ -5,7 +5,7 @@ description: Индивидуальный проект современного 
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 1
+weight: 11
 featured:
 project-title: Современный дом со сдвижными ставнями
 

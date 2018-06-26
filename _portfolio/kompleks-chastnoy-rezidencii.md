@@ -5,7 +5,7 @@ description: Индивидуальный проект комплекса зда
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 1
+weight: 10
 featured:
 project-title: Комплекс частной резиденции
 

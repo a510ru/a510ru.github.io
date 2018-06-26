@@ -5,7 +5,7 @@ description: Индивидуальный проект дома в англий�
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 6
+weight: 16
 featured: 1
 project-title: Дом в английском стиле
 
