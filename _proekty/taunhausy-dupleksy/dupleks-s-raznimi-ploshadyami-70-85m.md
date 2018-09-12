@@ -6,7 +6,7 @@ layout: project
 permalink: /proekty/:path
 
 featured:
-weight: 8
+weight: 1300
 
 project-title: Дуплекс с разными площадями
 project-catalog-title: Экономичный таунхаус

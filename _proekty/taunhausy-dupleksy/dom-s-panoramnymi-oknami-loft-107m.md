@@ -5,7 +5,7 @@ description: Типовой проект дуплекса (дома на две 
 layout: project
 permalink: /proekty/:path
 
-weight: 180
+weight: 3100
 
 project-title: Дом на две семьи с панорамными окнами
 project-catalog-title: Современный дуплекс

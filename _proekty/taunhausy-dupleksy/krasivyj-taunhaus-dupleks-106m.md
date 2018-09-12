@@ -5,8 +5,8 @@ description: Готовый проект красивого таунхауса (
 layout: project
 permalink: /proekty/:path
 
-featured: 1
-weight: 20
+featured:
+weight: 800
 
 project-title: Красивый таунхаус
 project-catalog-title: Красивый дуплекс

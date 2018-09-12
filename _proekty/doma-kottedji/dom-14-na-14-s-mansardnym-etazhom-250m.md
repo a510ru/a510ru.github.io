@@ -5,7 +5,7 @@ description: Типовой проект двухэтажного дома (ко
 layout: project
 permalink: /proekty/:path
 
-weight: 210
+weight: 3400
 
 project-title: Двухэтажный дом с мансардой
 project-catalog-title: Двухэтажный дом

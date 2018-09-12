@@ -5,7 +5,7 @@ description: Готовый проект дома на 4 семьи с отде�
 layout: project
 permalink: /proekty/:path
 
-weight: 510
+weight: 5200
 
 project-title: Дом на 4 семьи
 project-catalog-title: Квадрохаус

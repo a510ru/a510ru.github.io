@@ -5,7 +5,7 @@ description: Типовой проект просторного таунхаус
 layout: project
 permalink: /proekty/:path
 
-weight: 220
+weight: 3500
 
 project-title: Просторный таунхаус с гаражом
 project-catalog-title: Большой дуплекс

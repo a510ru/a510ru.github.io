@@ -5,7 +5,7 @@ description: Типовой проект дуплекса (дома на две 
 layout: project
 permalink: /proekty/:path
 
-weight: 120
+weight: 2500
 
 project-title: Дуплекс в стиле минимализм
 project-catalog-title: Современный дуплекс

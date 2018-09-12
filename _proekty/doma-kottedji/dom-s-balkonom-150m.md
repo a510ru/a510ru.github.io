@@ -5,7 +5,7 @@ description: Готовый проект дома (коттеджа) с балк
 layout: project
 permalink: /proekty/:path
 
-weight: 110
+weight: 2400
 
 project-title: Коттедж с балконом
 project-catalog-title: Современный дом

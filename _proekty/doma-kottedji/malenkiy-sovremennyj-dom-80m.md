@@ -5,8 +5,8 @@ description: Готовый проект маленького современн
 layout: project
 permalink: /proekty/:path
 
-featured: 1
-weight: 10
+featured:
+weight: 900
 
 project-title: Маленький современный дом
 project-catalog-title: Маленький дом

@@ -6,7 +6,7 @@ layout: project
 permalink: /proekty/:path
 
 featured: 1
-weight: 5
+weight: 300
 
 project-title: Компактный современный дом
 project-catalog-title: Компактный дом

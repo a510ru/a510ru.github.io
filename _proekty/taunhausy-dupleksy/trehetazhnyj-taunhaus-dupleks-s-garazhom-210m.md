@@ -5,7 +5,7 @@ description: Типовой проект трехэтажного таунхау
 layout: project
 permalink: /proekty/:path
 
-weight: 300
+weight: 4300
 
 project-title: Трехэтажный таунхаус с гаражом
 project-catalog-title: Трехэтажный дуплекс

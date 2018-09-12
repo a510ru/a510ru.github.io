@@ -5,8 +5,8 @@ description: Готовый проект недорогого маленьког
 layout: project
 permalink: /proekty/:path
 
-featured: 1
-weight: 6
+featured:
+weight: 1000
 
 project-title: Маленький недорогой дом
 project-catalog-title: Недорогой коттедж

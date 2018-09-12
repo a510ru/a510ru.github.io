@@ -6,7 +6,7 @@ layout: project
 permalink: /proekty/:path
 
 featured: 1
-weight: 4
+weight: 200
 
 project-title: Каркасный эконом дуплекс
 project-catalog-title: Каркасный дуплекс

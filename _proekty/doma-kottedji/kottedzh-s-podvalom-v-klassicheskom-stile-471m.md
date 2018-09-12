@@ -5,7 +5,7 @@ description: Типовой проект дома (коттеджа) в клас
 layout: project
 permalink: /proekty/:path
 
-weight: 310
+weight: 4400
 
 project-title: Коттедж в классическом стиле
 project-catalog-title: Роскошный дом

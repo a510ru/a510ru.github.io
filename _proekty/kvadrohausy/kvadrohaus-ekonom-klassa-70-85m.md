@@ -5,7 +5,7 @@ description: Готовый проект квадрохауса эконом к�
 layout: project
 permalink: /proekty/:path
 
-weight: 510
+weight: 5300
 
 project-title: Квадрохаус эконом класса
 project-catalog-title: Квадрохаус

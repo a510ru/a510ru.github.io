@@ -5,7 +5,7 @@ description: Готовый проект четырехсекционного б
 layout: project
 permalink: /proekty/:path
 
-weight: 500
+weight: 4800
 
 project-title: Блокированный дом квадрохаус
 project-catalog-title: Квадрохаус

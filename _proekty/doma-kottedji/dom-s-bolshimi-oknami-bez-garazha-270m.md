@@ -5,7 +5,7 @@ description: Типовой проект английского дома (кот
 layout: project
 permalink: /proekty/:path
 
-weight: 270
+weight: 4000
 
 project-title: Дом с большими окнами без гаража
 project-catalog-title: Двухэтажный дом

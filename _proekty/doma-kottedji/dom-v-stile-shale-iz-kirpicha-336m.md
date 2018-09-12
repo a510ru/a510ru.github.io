@@ -5,7 +5,7 @@ description: Типовой проект дома (коттеджа) в стил
 layout: project
 permalink: /proekty/:path
 
-weight: 290
+weight: 4200
 
 project-title: Дом в стиле шале с мансардой
 project-catalog-title: Альпийский коттедж

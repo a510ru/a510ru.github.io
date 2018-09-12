@@ -5,7 +5,7 @@ description: Типовой проект дома (коттеджа) с эрке
 layout: project
 permalink: /proekty/:path
 
-weight: 330
+weight: 4600
 
 project-title: Дом с эркером и мансардой
 project-catalog-title: Двухэтажный коттедж

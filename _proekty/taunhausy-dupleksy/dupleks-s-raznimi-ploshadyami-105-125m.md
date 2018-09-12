@@ -5,7 +5,7 @@ description: Готовый проект дуплекса с разными пл
 layout: project
 permalink: /proekty/:path
 
-weight: 65
+weight: 1800
 
 project-title: Дуплекс с разными площадями
 project-catalog-title: Двухэтажный дуплекс

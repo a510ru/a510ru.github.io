@@ -5,7 +5,7 @@ description: Готовый проект квадрохауса на 4 семь�
 layout: project
 permalink: /proekty/:path
 
-weight: 510
+weight: 5400
 
 project-title: Квадрохаус на 4 семьи
 project-catalog-title: Квадрохаус

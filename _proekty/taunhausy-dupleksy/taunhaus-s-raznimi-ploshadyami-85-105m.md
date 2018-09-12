@@ -5,7 +5,7 @@ description: Готовый проект таунхауса с разными п
 layout: project
 permalink: /proekty/:path
 
-weight: 95
+weight: 2200
 
 project-title: Таунхаус с разными площадями
 project-catalog-title: Двухэтажный таунхаус

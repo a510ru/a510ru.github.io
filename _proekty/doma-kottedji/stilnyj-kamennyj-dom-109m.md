@@ -6,7 +6,7 @@ layout: project
 permalink: /proekty/:path
 
 featured: 1
-weight: 3
+weight: 100
 
 project-title: Стильный каменный дом
 project-catalog-title: Каменный дом

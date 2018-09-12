@@ -5,7 +5,7 @@ description: Типовой проект дома (коттеджа) с трем
 layout: project
 permalink: /proekty/:path
 
-weight: 190
+weight: 3200
 
 project-title: Коттедж с тремя спальнями
 project-catalog-title: Дом с мансардой

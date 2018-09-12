@@ -5,7 +5,7 @@ description: Готовый проект двухэтажного дома (ко
 layout: project
 permalink: /proekty/:path
 
-weight: 90
+weight: 2100
 
 project-title: Двухэтажный дом с гаражом
 project-catalog-title: Двухэтажный дом

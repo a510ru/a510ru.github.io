@@ -5,7 +5,7 @@ description: Типовой проект таунхауса (дуплекса) �
 layout: project
 permalink: /proekty/:path
 
-weight: 240
+weight: 3700
 
 project-title: Дуплекс эконом класса
 project-catalog-title: Недорогой дуплекс

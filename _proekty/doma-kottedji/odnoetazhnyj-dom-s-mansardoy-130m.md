@@ -5,7 +5,7 @@ description: Готовый проект одноэтажного дома (ко
 layout: project
 permalink: /proekty/:path
 
-weight: 70
+weight: 1900
 
 project-title: Одноэтажный дом с мансардой
 project-catalog-title: Дом с мансардой

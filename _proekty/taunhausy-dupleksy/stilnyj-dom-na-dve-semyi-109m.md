@@ -6,7 +6,7 @@ layout: project
 permalink: /proekty/:path
 
 featured: 1
-weight: 7
+weight: 500
 
 project-title: Стильный дом на две семьи
 project-catalog-title: Стильный дуплекс

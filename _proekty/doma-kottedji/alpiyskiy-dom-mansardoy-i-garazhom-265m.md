@@ -5,7 +5,7 @@ description: Типовой проект альпийского дома (кот
 layout: project
 permalink: /proekty/:path
 
-weight: 250
+weight: 3800
 
 project-title: Альпийский дом с эркером
 project-catalog-title: Дом с мансардой

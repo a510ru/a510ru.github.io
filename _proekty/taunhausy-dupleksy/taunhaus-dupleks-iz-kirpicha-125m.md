@@ -5,7 +5,7 @@ description: Типовой проект таунхауса (дуплекса) �
 layout: project
 permalink: /proekty/:path
 
-weight: 260
+weight: 3900
 
 project-title: Таунхаус из кирпича
 project-catalog-title: Таунхаус-дуплекс

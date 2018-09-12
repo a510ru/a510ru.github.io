@@ -5,8 +5,8 @@ description: Готовый проект двухэтажного совреме
 layout: project
 permalink: /proekty/:path
 
-featured: 1
-weight: 40
+featured:
+weight: 1500
 
 project-title: Двухэтажный таунхаус с плоской крышей
 project-catalog-title: Современный дуплекс

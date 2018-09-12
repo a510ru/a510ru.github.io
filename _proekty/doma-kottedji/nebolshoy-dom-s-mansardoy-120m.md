@@ -5,8 +5,8 @@ description: Готовый проект небольшого дома (котт
 layout: project
 permalink: /proekty/:path
 
-featured: 1
-weight: 30
+featured:
+weight: 1200
 
 project-title: Небольшой дом с мансардой
 project-catalog-title: Небольшой коттедж

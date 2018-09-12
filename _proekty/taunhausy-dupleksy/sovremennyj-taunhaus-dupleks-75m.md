@@ -5,8 +5,8 @@ description: Готовый проект современного таунхау
 layout: project
 permalink: /proekty/:path
 
-featured: 1
-weight: 60
+featured:
+weight: 1700
 
 project-title: Современный таунхаус
 project-catalog-title: Современный дуплекс

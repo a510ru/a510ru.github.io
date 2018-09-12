@@ -5,7 +5,7 @@ description: Готовый проект небольшого таунхауса
 layout: project
 permalink: /proekty/:path
 
-weight: 160
+weight: 2900
 
 project-title: Небольшой таунхаус
 project-catalog-title: Небольшой дуплекс

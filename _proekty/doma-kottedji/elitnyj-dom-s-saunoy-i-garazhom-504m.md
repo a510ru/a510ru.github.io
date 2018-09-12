@@ -5,7 +5,7 @@ description: Готовый проект элитного дома (коттед
 layout: project
 permalink: /proekty/:path
 
-weight: 230
+weight: 3600
 
 project-title: Элитный дом с сауной
 project-catalog-title: Трехэтажный дом

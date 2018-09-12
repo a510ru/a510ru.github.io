@@ -5,7 +5,7 @@ description: Готовый проект уютного дома (коттедж
 layout: project
 permalink: /proekty/:path
 
-weight: 130
+weight: 2600
 
 project-title: Уютный дом с мансардой и гаражом
 project-catalog-title: Загородный дом

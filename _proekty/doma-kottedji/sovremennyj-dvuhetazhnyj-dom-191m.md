@@ -5,8 +5,8 @@ description: Готовый проект современного двухэта
 layout: project
 permalink: /proekty/:path
 
-featured: 1
-weight: 50
+featured:
+weight: 1600
 
 project-title: Современный двухэтажный дом
 project-catalog-title: Двухэтажный дом

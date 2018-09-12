@@ -5,7 +5,7 @@ description: Готовый проект дуплекса (дома с двум�
 layout: project
 permalink: /proekty/:path
 
-weight: 100
+weight: 2300
 
 project-title: Дом с двумя входами на две семьи
 project-catalog-title: Удобный дуплекс

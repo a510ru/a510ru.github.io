@@ -5,7 +5,7 @@ description: Готовый проект большого дома (коттед
 layout: project
 permalink: /proekty/:path
 
-weight: 170
+weight: 3000
 
 project-title: Большой дом с эркером
 project-catalog-title: Двухэтажный дом

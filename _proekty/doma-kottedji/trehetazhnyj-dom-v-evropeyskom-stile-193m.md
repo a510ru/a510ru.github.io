@@ -5,7 +5,7 @@ description: Готовый оригинальный проект трехэта
 layout: project
 permalink: /proekty/:path
 
-weight: 150
+weight: 2800
 
 project-title: Трехэтажный дом в европейском стиле
 project-catalog-title: Трехэтажный дом

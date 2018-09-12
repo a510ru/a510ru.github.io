@@ -5,7 +5,7 @@ description: Готовый проект двухэтажного таунхау
 layout: project
 permalink: /proekty/:path
 
-weight: 40
+weight: 1100
 
 project-title: Двухэтажный таунхаус с гаражом
 project-catalog-title: Двухэтажный дуплекс
