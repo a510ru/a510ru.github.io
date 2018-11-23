@@ -17,10 +17,10 @@ short-description: "Строгий и сдержанный дом на четы�
 price-project: "80 000 р"
 price-build:
 
-area: "73"
+area: "4x73"
 
 related:
-- KP-70
+- MK-208
 - KP-104
 - TD-79
 

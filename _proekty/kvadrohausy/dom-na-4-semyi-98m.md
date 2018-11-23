@@ -20,9 +20,10 @@ price-build:
 area: "98"
 
 related:
-- KB-70/85
-- KB-85/105
+- MK-208
 - KP-104
+- TD-109
+
 
 params:
 - name: "Площадь секции:"

@@ -19,6 +19,11 @@ price-build:
 
 area: "70"
 
+related:
+- MK-208
+- KP-104
+- TP-116
+
 params:
 - name: "Количество подъездов"
   value: "1"

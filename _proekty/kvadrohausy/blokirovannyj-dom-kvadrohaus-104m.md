@@ -20,7 +20,7 @@ price-build:
 area: "104"
 
 related:
-- KP-70
+- MK-208
 - KB-73
 - TP-116
 

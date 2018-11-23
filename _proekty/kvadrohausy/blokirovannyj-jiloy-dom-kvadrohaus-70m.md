@@ -21,7 +21,7 @@ area: "70"
 
 related:
 - KP-104
-- KB-73
+- MK-208
 - TP-107
 
 params:
