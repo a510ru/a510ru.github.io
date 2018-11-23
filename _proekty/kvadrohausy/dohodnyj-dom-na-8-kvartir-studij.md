@@ -17,7 +17,7 @@ short-description: "Проект доходного дома нового тип
 price-project: "140 000 р"
 price-build:
 
-area: "35"
+area: "8x35"
 
 related:
 - MK-312
