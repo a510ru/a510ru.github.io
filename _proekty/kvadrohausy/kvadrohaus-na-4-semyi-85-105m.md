@@ -14,7 +14,7 @@ tiny-description: Блокированный дом с разными площа
 
 short-description: "Проект квадрохауса на 4 семьи с разными площадями. Две секции площадью 85м<sup>2</sup>, две - 105м<sup>2</sup>."
 
-proce-project: "90 000 р"
+price-project: "90 000 р"
 price-build:
 
 area: "85/105"
