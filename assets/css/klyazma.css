@@ -2981,7 +2981,8 @@
 /* LONDON */
 	
 .inner-slide {
-	margin: 2em 3em 0 0;
+	margin: 6em 3em 0 0;
+	font-size: 1.5em;
 }
 
 	@media screen and (max-width: 980px) {
@@ -2996,7 +2997,8 @@
 
 @media screen and (max-width: 980px) {
 	.inner-slide {
-		margin: 1em 1em 0 1em;
+		margin: 1em 1em 0 3em;
+		font-size: 0.85em;
 	}
 }
 .slide1 {
@@ -3013,6 +3015,10 @@
 
 .slide4 {
 	background: url("/images/klyazma/slide03.png") center / contain no-repeat;
+}
+
+.slide5 {
+	background: url("/images/klyazma/slide04.png") center / contain no-repeat;
 }
 		
 	.slide1 h1, .slide1 h2 {
@@ -3063,6 +3069,7 @@
 			
 			.slide1 h1 {
 				font-size: 1.5em;
+				margin-bottom:2em;
 			}
 			
 			.slide1 h2 {
