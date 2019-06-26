@@ -5,7 +5,7 @@ description: Готовый проект каркасного скандинав
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+featured:
 weight: 400
 
 project-title: Каркасный скандинавский дом

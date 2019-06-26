@@ -5,7 +5,7 @@ description: Готовый проект стильного камменного
 layout: project
 permalink: /proekty/:path
 
-featured: 1
+featured:
 weight: 100
 
 project-title: Стильный каменный дом

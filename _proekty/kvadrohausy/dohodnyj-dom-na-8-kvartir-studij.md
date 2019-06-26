@@ -5,6 +5,7 @@ description: Готовый проект доходного двухэтажно
 layout: project
 permalink: /proekty/:path
 
+featured: 1
 weight: 990
 
 project-title: Доходный дом на 8 квартир-студий
