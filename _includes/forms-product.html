@@ -5,6 +5,8 @@
 			<h3>Заказ проекта</h3>
 			<input type="text" class="name" name="name" placeholder="Ваше имя*" required>
 			<input type="tel" class="phone" name="phone" placeholder="Номер телефона*" required>
+			<input style="display:none" type="text" name="page" value="{{page.url}}">
+			<input style="display:none" type="email" name="mail_to" value="info@a510.ru">
 			<ul class="actions">
 				<li><input type="submit" class="submit button fit" value="Отправить"></li>
 			</ul>
@@ -28,6 +30,8 @@
 			<input type="tel" class="phone" name="phone" placeholder="Номер телефона*" required>
 			<input type="email" class="email" name="email" placeholder="Ваш e-mail*" required>
 			<textarea rows="5" name="message" class="message" placeholder="Ваше сообщение*" required></textarea>
+			<input style="display:none" type="text" name="page" value="{{page.url}}">
+			<input style="display:none" type="email" name="mail_to" value="info@a510.ru">
 			<ul class="actions">
 				<li><input type="submit" class="submit button fit" value="Отправить"></li>
 			</ul>
