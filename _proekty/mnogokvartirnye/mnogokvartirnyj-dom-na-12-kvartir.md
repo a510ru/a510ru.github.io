@@ -4,6 +4,7 @@ description: Готовый проект трехэтажного дома на 
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /proekty/kvadrohausy/mnogokvartirnyj-dom-na-12-kvartir
 
 weight: 5100
 

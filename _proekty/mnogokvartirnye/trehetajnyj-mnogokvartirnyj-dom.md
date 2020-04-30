@@ -4,6 +4,7 @@ description: Готовый проект современного многокв
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /proekty/kvadrohausy/trehetajnyj-mnogokvartirnyj-dom
 
 weight: 4700
 

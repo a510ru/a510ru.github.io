@@ -64,7 +64,17 @@
 						</script>
 					
 						<header class="align-left">
-							<h1>{{ page.project-title }} {{page.project-name}}</h1>
+							<style scoped>
+								.mh1 {
+									font-size: 1.3em;
+								}
+								@media (min-width: 360px) {
+									.mh1 {
+										font-size: 1.5em;
+									}
+								}
+							</style>
+							<h1 class="mh1">{{ page.project-title }} {{page.project-name}}</h1>
 						</header>
 						
  						<div class="row">
@@ -88,11 +98,20 @@
 						</div>
 						<div class="row uniform">
 							<div class="7u 12u(medium)">
-								{% assign index = 1 %}
+								{% if page.basement %}
+									{% assign index = 0 %}
+								{% else %}
+									{% assign index = 1 %}
+								{% endif %}
 								{% for img in img_array %}
 									{% if img contains "plan" %}
+									{% if index==0 %}
+									<h3>План подвала</h3>
+									<div class="image plan"><img src="{{img}}" alt="Планирока подвала в проекте {{page.project-title}} {{page.project-name}}"></div>
+									{% else %}
 									<h3>План {{index}}-го этажа</h3>
 									<div class="image plan"><img src="{{img}}" alt="Планирока {{index}}-го этажа в проекте {{page.project-title}} {{page.project-name}}"></div>
+									{% endif %}
 									{% assign index = index | plus:1 %}
 									{% endif %}
 								{% endfor %}

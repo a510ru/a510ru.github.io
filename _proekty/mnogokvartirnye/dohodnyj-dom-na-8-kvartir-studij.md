@@ -4,6 +4,7 @@ description: Готовый проект доходного двухэтажно
 
 layout: project
 permalink: /proekty/:path
+redirect_from: /proekty/kvadrohausy/dohodnyj-dom-na-8-kvartir-studij
 
 featured: 1
 weight: 990
