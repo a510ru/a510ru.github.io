@@ -211,19 +211,20 @@
 			$('.ajax-form').submit(function(event) {
 				event.preventDefault();
 				var form = $(this);
-				
+				$('.ajax-form').hide();
+				$(".form-loading").fadeIn("400");
 				$.ajax({
 					dataType: "jsonp",
 					url: "https://script.google.com/macros/s/AKfycbzsBxQ_0rkFBSPUoWywnvdjUfyippHomxBDDRHV2hpTmWIrYNc/exec",
 					data: form.serialize()
 						}).done(function(data) {
-							$('.ajax-form').hide();
+							$('.form-loading').hide();
 							$(".form-succes").fadeIn("400");
 							yaCounter24649415.reachGoal('lead');
 							ga('send', 'event', 'form', 'lead');
 							fbq('track', 'Lead');
 						}).fail(function(data) {
-							$('.ajax-form').hide();
+							$('.form-loading').hide();
 							$(".form-error").fadeIn("400");
 						});
 			  });
