@@ -93,6 +93,25 @@
 			.banner:before {
 				background-color: rgba(0,0,0,.6);
 			}
+
+			@media screen and (max-width: 980px){
+				.full_width_mobile {
+					width: 100%!important;
+				}
+			}
+
+			.pic_header {
+				margin-top: 1.5em;
+				margin-bottom: 0.5em;
+				letter-spacing: 0.05em;
+				font-size: 1.4em;
+			}
+
+			@media screen and (max-width: 980px){
+				.pic_header {
+					font-size: 1.25em;
+				}
+			}
 		</style>
 		{% include header_black.html %}
 
@@ -108,17 +127,13 @@
 		</div>
 		<!-- Main -->
 			<div id="not-main">
-				<article class="container" style="margin-top:2em">
+				<article style="margin-top:2em">
 					<!-- <header class="align-center">
 						<h1>{{ page.page-title }}</h1>
 					</header> -->
 					{{ content }}
 				</article>
 			</div>
-		
-		<!-- {% include cta-landing.html %} -->
-		<!-- Footer -->
-		<!-- {% include footer.html %} -->
 
 		<!-- Scripts -->
 		{% include scripts.html %}
