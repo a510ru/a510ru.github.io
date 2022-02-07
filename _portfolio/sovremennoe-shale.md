@@ -5,7 +5,7 @@ description: Индивидуальный проект современного 
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 9
+weight: 54
 featured:
 project-title: Современное шале на водохранилище
 

@@ -5,7 +5,7 @@ description: Индивидуальный проект разноуровнев�
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 7
+weight: 52
 featured:
 project-title: Разноуровневый дом для большой семьи
 

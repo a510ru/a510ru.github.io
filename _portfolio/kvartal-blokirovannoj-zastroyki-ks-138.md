@@ -4,8 +4,8 @@ description: Архитектурная концепция квартала бл
 
 layout: port-project
 permalink: /portfolio/:path
-weight: 20
-featured: 1
+weight: 63
+featured:
 project-title: Квартал блокированной застройки KS-138
 
 short-description: "Идея этого градостроительного проекта - создать блок-секцию жилого дома, которую можно объединить и в дуплекс, и в лейн-хаус, и в квадрохаус.

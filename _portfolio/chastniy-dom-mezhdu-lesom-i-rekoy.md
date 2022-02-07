@@ -5,7 +5,7 @@ description: Индивидуальный проект частного дома
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 1
+weight: 14
 featured:
 project-title: Дом между лесом и рекой
 

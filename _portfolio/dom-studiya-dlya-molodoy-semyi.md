@@ -5,7 +5,7 @@ description: Индивидуальный проект дома-студии д�
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 6
+weight: 51
 featured:
 project-title: Дом-студия для молодой семьи
 

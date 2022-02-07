@@ -4,7 +4,7 @@ description: Индивидуальный проект банного компл
 
 layout: port-project
 permalink: /portfolio/:path
-weight: 60
+weight: 67
 project-title: Банный комплекс на Истринском водохранилище
 
 short-description: Комплекс с зонами бассейна, спа, спортзалом и кафе. Здание выполнено в современном стиле. Общая площадь более 600м2.

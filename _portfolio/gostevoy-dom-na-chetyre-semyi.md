@@ -5,7 +5,7 @@ description: Индивидуальный проект гостевого дом
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 10
+weight: 56
 featured:
 project-title: Гостевой дом на 4 семьи
 
