@@ -5,7 +5,7 @@ description: Интерьер дома из клееного бруса от а�
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 21
+weight: 24
 featured:
 project-title: Интерьер дома из клееного бруса
 

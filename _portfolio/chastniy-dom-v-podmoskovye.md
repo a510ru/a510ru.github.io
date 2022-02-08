@@ -5,7 +5,7 @@ description: Индивидуальный проект частного дома
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 24
+weight: 25
 featured:
 project-title: Частный дом в Подмосковье
 

@@ -5,7 +5,7 @@ description: Интерьер дома в скандинавском стиле 
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 23
+weight: 22
 featured:
 project-title: Интерьер дома в скандинавском стиле
 

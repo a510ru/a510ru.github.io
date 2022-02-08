@@ -5,7 +5,7 @@ description: Интерьер небольшого дома от архитек�
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 22
+weight: 23
 featured:
 project-title: Интерьер небольшого дома
 

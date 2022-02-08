@@ -5,7 +5,7 @@ description: Загородная вилла от архитектурного �
 layout: port-project
 permalink: /portfolio/:path
 
-weight: 10
+weight: 24
 featured:
 project-title: Загородная вилла
 
