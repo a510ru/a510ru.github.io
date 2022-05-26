@@ -1,8 +1,22 @@
 <head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<meta name="mobile-web-app-capable" content="yes"/>
 	<meta name="theme-color" content="#100e11" />
+	<meta name="color-scheme" content="light dark">
+	<script>
+		// If `prefers-color-scheme` is not supported, fall back to light mode.
+		// In this case, light.css will be downloaded with `highest` priority.
+		if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
+		  document.documentElement.style.display = 'none';
+		  document.head.insertAdjacentHTML(
+			  'beforeend',
+			  '<link rel="stylesheet" href="/assets/css/light.min.css" onload="document.documentElement.style.display = \'\'">'
+		  );
+		}
+	  </script>
+	<link rel="stylesheet" href="/assets/css/dark.min.css" media="(prefers-color-scheme: dark)">
+	<link rel="stylesheet" href="/assets/css/light.min.css" media="(prefers-color-scheme: light)">
 	<link rel="stylesheet" href="/assets/css/main.min.css" />
 	<link rel="stylesheet" href="/slick/slick.min.css"/>
 	<link rel="stylesheet" href="/slick/slick-theme.css"/>
