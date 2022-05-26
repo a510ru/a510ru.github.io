@@ -19,13 +19,35 @@ page-description: "Какой-то текст тут"
         background: var(--back-color);
     }
 
+    h2 {
+        position: absolute;
+        top: 1rem;
+        left: 2rem;
+        text-align: left;
+        color: var(--stroke-color);
+        font-size: 1.5rem;
+    }
+
+    @media screen and (max-width: 736px) {
+        h2 {
+            font-size: 1.2rem;
+        }
+    }
+
+    .logo {
+        position: absolute;
+        bottom: 1rem;
+        right: 1.2rem;
+        font-size: 1.5rem;
+    }
+
     .flow-container {
         cursor: grab;
         height: 100vh;
         width: 100vw;
         overflow-x: scroll;
         overflow-y: hidden;
-        padding: 2em;
+        padding: 3rem 2rem 2rem 2rem;
     }
 
     .flow-container svg {
@@ -38,9 +60,9 @@ page-description: "Какой-то текст тут"
 </style>
 
 <script src="assets/js/dragscroll.js"></script>
-<h2 style="position: absolute;top: 1rem;left: 2rem;text-align: left;color: var(--stroke-color);">ECOVILLAGE СЕЛИГЕР</h2>
-<a href="/" class="logo" style="position: absolute;bottom: 1rem;right: 1.2rem;font-size: 1.5rem;">
-    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.88 170.88" style="height: 3em;fill: var(--fill-color);">
+<h2>ECOVILLAGE СЕЛИГЕР</h2>
+<a href="/" class="logo">
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.88 170.88" style="height: 3rem;fill: var(--fill-color);">
         <title>A510 LOGO</title>
         <g id="LWPOLYLINE"><polygon points="37.82 0 75.64 28.37 75.64 75.64 0 75.64 0 28.37 37.82 0"></polygon></g>
         <g id="LWPOLYLINE-2" data-name="LWPOLYLINE"><path d="M134,10.54l32.82,24.62V74.93H101.17V35.16L134,10.54m0-6.25L96.17,32.66V79.93h75.64V32.66L134,4.29h0Z" transform="translate(-3.71 -4.29)"></path></g>
