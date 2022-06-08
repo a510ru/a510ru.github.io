@@ -3714,6 +3714,7 @@
 /* Accordion */
 	span.accordion {
 		width: 100%;
+		position: relative;
 		text-align: left;
 		background-color: #fcfbfa;
 		color: #100e11;

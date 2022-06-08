@@ -16,19 +16,17 @@
 		
 		<!-- Main -->
 			<div id="not-main">
-				<article class="container 75%">
+				<article class="container">
 					<header class="align-center">
 						<h1>Ваша персональная страница</h1>
 					</header>
 					<p>Ваша персональная страница уже готова, теперь нам предстоит вместе спроектировать ваш персональный дом. Не волнуйтесь, вы в надёжных руках! Ниже на странице вы найдете всю необходимую информацию о том, что, как и когда нам нужно будет сделать, чтобы вы получили именно тот дом, который хотите.</p>
 					<section>
-						<h2 style="margin-bottom:0.5em;">Зачем это нужно</h2>
+						<h2 class="align-center">Зачем это нужно</h2>
 						<p>Строить дом без проекта &#8211; плохая идея, поверьте нашему опыту. Все чертежи для типовых проектов уже есть у строителей, но, если вы хотите персонализировать свой дом, вам потребуется новый проект. Ещё хотя бы один абзац про то, почему им нужен проект.</p>
 					</section>
-					<section class="front">
-						<header>
-							<h2 class="align-center">Что нужно сделать</h2>
-						</header>
+					<section>
+						<h2 class="align-center">Что нужно сделать</h2>
 						<div class="row">
 							<div class="6u 12u(medium)">
 								<h3>Проект дома</h3>
@@ -71,16 +69,39 @@
 						</div>
 					</section>
 					<section>
-						<h3>План 1-го этажа:</h3>
-						<div class="image plan">
-							<img src="/images/lndwrk/{{page.project}}-1.jpg" alt="Планировка первого этажа"/>
+						<h2 class="align-center" style="margin-bottom:0.5em;">Как мы это сделаем</h2>
+						<p>1. Первым делом мы с вами созвонимся и обсудим необходимые изменения. Ниже мы типовую планировку вашего дома, чтобы вам было от чего отталкиваться.</p>
+						<span class="button accordion">Планировки</span>
+						<div class="acc-panel">
+							<h3>План 1-го этажа:</h3>
+							<div class="image plan">
+								<img src="/images/lndwrk/{{page.project}}-1.png" alt="Планировка первого этажа"/>
+							</div>
+							{% if page.project > 130 %}
+							<div class="6u 12u(medium)">
+								<h3>План 2-го этажа:</h3>
+								<div class="image plan">
+									<img src="/images/lndwrk/{{page.project}}-2.png" alt="Планировка первого этажа"/>
+								</div>
+							</div>
+							{% endif %}
 						</div>
-						{% if page.project > 130 %}
-						<h3>План 2-го этажа:</h3>
-						<div class="image plan">
-							<img src="/images/lndwrk/{{page.project}}-2.jpg" alt="Планировка первого этажа"/>
-						</div>
-						{% endif %}
+						<!-- <div class="row">
+							<div class="6u 12u(medium)">
+								<h3>План 1-го этажа:</h3>
+								<div class="image plan">
+									<img src="/images/lndwrk/{{page.project}}-1.png" alt="Планировка первого этажа"/>
+								</div>
+							</div>
+							{% if page.project > 130 %}
+							<div class="6u 12u(medium)">
+								<h3>План 2-го этажа:</h3>
+								<div class="image plan">
+									<img src="/images/lndwrk/{{page.project}}-2.png" alt="Планировка первого этажа"/>
+								</div>
+							</div>
+							{% endif %}
+						</div> -->
 					</section>
 				</article>
 			</div>
