@@ -6,7 +6,7 @@ layout: port-project
 permalink: /portfolio/:path
 
 weight: 1
-featured: 1
+featured:
 project-title: Частная резиденция в Подмосковье
 
 short-description: 
